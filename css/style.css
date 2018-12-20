@@ -36,6 +36,9 @@ RESPONSIVE
 /*----------------------------*\
 	typography
   \*----------------------------*/
+  :root {
+  --main-bg-color: #3158dd;
+}
 
   html,body {
     font-family: 'Poppins', sans-serif;
@@ -82,7 +85,7 @@ RESPONSIVE
   a:hover, a:focus {
     text-decoration: none;
     outline: none;
-    color: #dd0a37;
+    color: var(--main-bg-color);
   }
 
   ul, ol {
@@ -94,7 +97,7 @@ RESPONSIVE
   .main-btn {
     display: inline-block;
     padding: 14px 50px;
-    background: #dd0a37;
+    background: var(--main-bg-color);
     color: #FFF;
     text-transform: uppercase;
     border: none;
@@ -106,7 +109,7 @@ RESPONSIVE
   .main-btn:hover, .main-btn:focus {
     color: #FFF;
     opacity: 0.8;
-  }
+var(--main-bg-color)  }
 
   .input {
     height: 40px;
@@ -124,7 +127,7 @@ RESPONSIVE
   }
 
   .input:focus {
-    border-color: #dd0a37;
+    border-color: var(--main-bg-color);
   }
 
 /*----------------------------*\
@@ -293,16 +296,16 @@ RESPONSIVE
     bottom: -3px;
     width: 100%;
     left: 0;
-    background: #dd0a37;
+    background: var(--main-bg-color);
   }
 
   .main-nav li a:hover, .main-nav li a:focus {
     background-color: transparent;
-    color: #dd0a37;
+    color: var(--main-bg-color);
   }
 
   #header.transparent-navbar .main-nav li a:hover {
-    color: #dd0a37;
+    color: var(--main-bg-color);
   }
 
   .navbar-toggle {
@@ -346,7 +349,7 @@ RESPONSIVE
       color: #0b0f28;
     }
     .main-nav li a:hover, .main-nav li a:focus, .main-nav li.active a {
-      background-color: #dd0a37;
+      background-color: var(--main-bg-color);
       color: #fff !important;
     }
     .navbar-toggle {
@@ -407,7 +410,7 @@ RESPONSIVE
   .number h3 {
     font-size: 42px;
     margin-bottom: 0px;
-    color: #dd0a37;
+    color: var(--main-bg-color);
   }
 
   .number p {
@@ -457,7 +460,7 @@ RESPONSIVE
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     background: transparent;
-    color: #dd0a37;
+    color: var(--main-bg-color);
     width: 90px;
     height: 90px;
     line-height: 90px;
@@ -520,7 +523,7 @@ RESPONSIVE
   .speaker .speaker-content {
     position: relative;
     padding: 30px;
-    background: #dd0a37;
+    background: var(--main-bg-color);
     text-align: right;
     z-index: 20;
   }
@@ -552,7 +555,7 @@ RESPONSIVE
     line-height: 40px;
     text-align: center;
     color: #FFF;
-    background: #dd0a37;
+    background: var(--main-bg-color);
     z-index: 15;
     -webkit-transition: 0.3s opacity;
     transition: 0.3s opacity;
@@ -599,7 +602,7 @@ RESPONSIVE
     height: 60px;
     line-height: 60px;
     text-align: center;
-    background-color: #dd0a37 !important;
+    background-color: var(--main-bg-color) !important;
     border-radius: 50%;
     padding: 0;
     color: #FFF;
@@ -627,7 +630,7 @@ RESPONSIVE
   }
 
   .speaker-modal .speaker-modal-content .speaker-job {
-    color: #dd0a37;
+    color: var(--main-bg-color);
   }
 
   .speaker-modal .speaker-modal-content .speaker-social {
@@ -643,7 +646,7 @@ RESPONSIVE
     text-align: center;
     font-size: 14px;
     border-radius: 50%;
-    background: #dd0a37;
+    background: var(--main-bg-color);
     color: #fff;
     margin-right: 5px;
     -webkit-transition: 0.3s opacity;
@@ -669,7 +672,7 @@ RESPONSIVE
   }
 
   .speaker-modal .speaker-modal-content .speaker-events .speaker-event>span strong {
-    color: #dd0a37;
+    color: var(--main-bg-color);
   }
 
 /*=========================================================
@@ -691,7 +694,7 @@ RESPONSIVE
     top: 0px;
     bottom: 0px;
     width: 4px;
-    background-color: #dd0a37;
+    background-color: var(--main-bg-color);
   }
 
   .event:last-child:after {
@@ -705,7 +708,7 @@ RESPONSIVE
     height: 60px;
     top: -60px;
     width: 4px;
-    background-color: #dd0a37;
+    background-color: var(--main-bg-color);
   }
 
   .event .event-day {
@@ -715,7 +718,7 @@ RESPONSIVE
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: #dd0a37;
+    background: var(--main-bg-color);
     z-index: 10;
   }
 
@@ -726,7 +729,7 @@ RESPONSIVE
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background: #dd0a37;
+    background: var(--main-bg-color);
     z-index: 10;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -769,11 +772,11 @@ RESPONSIVE
   }
 
   .event .event-time i {
-    color: #dd0a37;
+    color: var(--main-bg-color);
   }
 
   .event .event-content a {
-    color: #dd0a37;
+    color: var(--main-bg-color);
   }
 
   .download-btn {
@@ -818,7 +821,7 @@ RESPONSIVE
   }
 
   .contact h3 {
-    color: #dd0a37;
+    color: var(--main-bg-color);
   }
 
   #map {
@@ -850,7 +853,7 @@ RESPONSIVE
     text-align: center;
     line-height: 120px;
     font-size: 42px;
-    color: #dd0a37;
+    color: var(--main-bg-color);
     cursor: pointer;
   }
 
@@ -886,7 +889,7 @@ RESPONSIVE
     height: 30px;
     text-align: center;
     border-radius: 50%;
-    background: #dd0a37;
+    background: var(--main-bg-color);
     color: #fff;
     line-height: 30px;
     margin-right: 15px;
@@ -951,7 +954,7 @@ RESPONSIVE
   .blog .blog-content .read-more {
     display: inline-block;
     padding: 7px 14px;
-    background: #dd0a37;
+    background: var(--main-bg-color);
     color: #FFF;
     text-transform: uppercase;
     border-radius: 2px;
@@ -984,7 +987,7 @@ RESPONSIVE
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-color: #dd0a37;
+    background-color: var(--main-bg-color);
     color: #FFF;
     border-radius: 50%;
     line-height: 30px;
@@ -1024,7 +1027,7 @@ RESPONSIVE
 
   .blog .blog-comments .media .media-heading .reply-btn {
     margin-left: 10px;
-    color: #dd0a37;
+    color: var(--main-bg-color);
   }
 
   .blog .blog-reply {
@@ -1095,7 +1098,7 @@ RESPONSIVE
   }
 
   #feedback-section label {
-    color: #dd0a37;
+    color: var(--main-bg-color);
     font-size: 22px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1104,7 +1107,7 @@ RESPONSIVE
   .feedback-btn {
     display: inline-block;
     padding: 14px 50px;
-    background: #dd0a37;
+    background: var(--main-bg-color);
     color: #FFF;
     text-transform: uppercase;
     border: none;
@@ -1261,7 +1264,7 @@ RESPONSIVE
     bottom: 50px;
     right: 30px;
     background-color: #DDD;
-    color: #DD0A37;
+    color: var(--main-bg-color);
     text-align: center;
     font-size: 30px;
     text-decoration: none;
@@ -1274,7 +1277,7 @@ RESPONSIVE
   .register-btn {
     display: inline-block;
     padding: 14px 50px;
-    background: #dd0a37;
+    background: var(--main-bg-color);
     color: #FFF;
     text-transform: uppercase;
     border: none;
@@ -1293,7 +1296,7 @@ RESPONSIVE
     text-transform: capitalize;
     font-weight: 900;
     font-size: 35px;
-    color: #dd0a37;
+    color: var(--main-bg-color);
   }
 
   .close {
