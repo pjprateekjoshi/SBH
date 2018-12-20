@@ -481,29 +481,43 @@
 					</div>
 
 					<div class="modal-body">
-						<form class="pure-form pure-form-stacked" id="registrationForm" method="POST" data-email="amohata.005@gmail.com"  
-						action="https://script.google.com/macros/s/AKfycbzClQHi7VXZGRs3K2U1zVVf2UiDVX9QUQQFS0jBuw/exec">
+						<form class="pure-form" id="registrationForm" method="POST" data-email=""  
+						action="">
 
 						<div class="tab-pane active" id="Registration">
 							<div class="row row-form">
-
-								<label class="col-md-6 col-sm-6 col-xs-12" for="team-name" >Team Name</label>
-								<input class="col-md-6 col-sm-6 col-xs-12 control-label" required type="text" placeholder="Team Name" name="team-name" id="team-name">
-								<label class="col-md-6 col-sm-6 col-xs-12" for="member">Team Size</label> 
-								<input class="col-md-6 col-sm-6 col-xs-12 control-label" required type="text" id="member" name="member" placeholder="Team Size" onchange="addFields()">
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="team-name">Team Name</label>
+									<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="team-name" id="team-name">
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="member">Team Size</label> 
+									<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" id="member" name="member" onchange="addFields()">
+								</div>
 								<p id="limit" class="limit col-md-offset-2 col-md-8 col-sm-12 col-xs-12"></p>
 								<h4 class="col-md-12 col-sm-12 col-xs-12" style="text-decoration: underline;"><font color="red">Leader Details</font></h4>
-								<label class="col-md-6 col-sm-6 col-xs-12" for="leader-name">Leader Name</label>
-								<input class="col-md-6 col-sm-6 col-xs-12 control-label" required type="text" name="leader-name" placeholder="Leader Name">
-								<label class="col-md-6 col-sm-6 col-xs-12" for="leader-email">Leader Email</label>
-								<input class="col-md-6 col-sm-6 col-xs-12 control-label" required type="email" name="leader-email" placeholder="Leader Email">
-								<label class="col-md-6 col-sm-6 col-xs-12" for="leader-contact">Leader Contact No.</label>
-								<input class="col-md-6 col-sm-6 col-xs-12 control-label" required type="number" name="leader-contact" placeholder="Leader Contact No." max="9999999999x">
+								<div class="col-md-6 col-sm-6 col-xs-12">							
+									<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="leader-name">Leader Name</label>
+									<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="leader-name">
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-12">								
+									<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="leader-email">Leader Email</label>
+									<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="email" name="leader-email">
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-12">								
+									<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="leader-contact">Leader Contact No.</label>
+									<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="number" name="leader-contact" max="9999999999x">
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-12">								
+									<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="leader-org">College/Organisation</label>
+									<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="leader-org">
+								</div>
 								
 								<div class="" id="member-details">
 								</div>
-								<label id="register-label" class="col-md-6 col-sm-6 col-xs-12  control-label"><span style="color: #dd0a37;">Idea</span></label>
-								<textarea required name="Message" class="col-md-6 col-sm-6 col-xs-12 register-input" id="contact-message" placeholder="Submit your idea" required></textarea>
+
+								<label id="register-label" class="col-md-12 col-sm-12 col-xs-12  control-label"><span style="color: #dd0a37;">Idea</span></label>
+								<textarea required name="Message" class="col-md-12 col-sm-12 col-xs-12 register-input" id="contact-message" placeholder="Submit your idea" required></textarea>
 
 
 							</div>
