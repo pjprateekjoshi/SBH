@@ -1,1 +1,1 @@
-# SBH
+# Smart Buisness Hackathon
