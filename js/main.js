@@ -1,3 +1,4 @@
+
 (function($) {
 	"use strict"
 
@@ -12,10 +13,13 @@
 		$('.main-nav').toggleClass('open');
 	});
 
+	$('#nav').on('click',function() {
+		$('.main-nav').toggleClass('open');
+	});
 	// Fixed nav
-	$(window).on('scroll', function() {
-		var wScroll = $(this).scrollTop();
-		wScroll > 50 ? $('#header').addClass('fixed-navbar') : $('#header').removeClass('fixed-navbar');
+        $(window).on('scroll', function() {
+ 	var wScroll = $(this).scrollTop();
+ 	wScroll > 50 ? $('#header').addClass('fixed-navbar') : $('#header').removeClass('fixed-navbar');
 	});
 
 	// Smooth scroll
@@ -84,5 +88,33 @@
 			offset: '95%'
 		});
 	});
+
+	$(document).ready(function() {
+    //Set the carousel options
+    $('#quote-carousel').carousel({
+      pause: true,
+      interval: 4000,
+        });
+    });
+    
+    $(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+	});
+	
+	$(document).ready(function() {
+		$("#back2Top").click(function(event) {
+			event.preventDefault();
+			$("html, body").animate({ scrollTop: 0 }, "slow");
+			return false;
+    });
+
+	});
+
+
 
 })(jQuery);
