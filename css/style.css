@@ -41,7 +41,7 @@ RESPONSIVE
 }
 
   html,body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     color: #444;
     overflow-x:hidden;
@@ -242,7 +242,7 @@ var(--main-bg-color)  }
     left: 0;
     right: 0;
     top: 0;
-    background: #FFF;
+    background: #0177FC;
     -webkit-box-shadow: 0px 0px 3px #0003;
     box-shadow: 0px 0px 3px #0003;
     border-bottom: none;
@@ -286,7 +286,7 @@ var(--main-bg-color)  }
   }
 
   #header.fixed-navbar .main-nav li a {
-    color: #0b0f28;
+    color: #FFF;
   }
 
   .main-nav li.active a:after {
@@ -379,7 +379,7 @@ var(--main-bg-color)  }
 
   .home-content h1 {
     text-transform: capitalize;
-    font-weight: 900;
+    font-weight: 1100;
     color: #FFF;
   }
 
@@ -1276,7 +1276,7 @@ var(--main-bg-color)  }
 
   .register-btn {
     display: inline-block;
-    padding: 14px 50px;
+    padding: 14px 14px;
     background: var(--main-bg-color);
     color: #FFF;
     text-transform: uppercase;
@@ -1285,6 +1285,7 @@ var(--main-bg-color)  }
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
     margin-top: 20px;
+    margin-left: 26px;
   }
   .register-btn:hover {
     color: #FFF;
