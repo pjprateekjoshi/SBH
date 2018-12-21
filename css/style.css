@@ -1,44 +1,7 @@
-/*
-Template Name: Event HTML TEMPLATE
-Author: yaminncco
 
-Colors:
-	Body 		  : #444
-	Headers 	: #0b0f28
-	Primary 	: #dd0a37
-	Dark 		  : #000
-	Grey 		  : #F9F9FA #DADADA
-
-Fonts:
-
-Table OF Contents
-------------------------------------
-GENERAL
-LOGO
-NAVIGATION
-HOME
-ABOUT
-GALERY
-SPEAKERS
-EVENTS
-SPONSORS
-CONTACT
-CTA
-FOOTER
-BLOG
-RESPONSIVE
-------------------------------------*/
-
-/*=========================================================
-	GENERAL
-  ===========================================================*/
-
-/*----------------------------*\
-	typography
-  \*----------------------------*/
   :root {
-  --main-bg-color: #3158dd;
-}
+    --main-bg-color: #3158dd;
+  }
 
   html,body {
     font-family: 'Quicksand', sans-serif;
@@ -109,29 +72,29 @@ RESPONSIVE
   .main-btn:hover, .main-btn:focus {
     color: #FFF;
     opacity: 0.8;
-var(--main-bg-color)  }
+    var(--main-bg-color)  }
 
-  .input {
-    height: 40px;
-    width: 100%;
-    border: 2px solid #dadada;
-    padding: 0px 15px;
-    border-radius: 2px;
-    -webkit-transition: 0.3s border;
-    transition: 0.3s border;
-  }
+    .input {
+      height: 40px;
+      width: 100%;
+      border: 2px solid #dadada;
+      padding: 0px 15px;
+      border-radius: 2px;
+      -webkit-transition: 0.3s border;
+      transition: 0.3s border;
+    }
 
-  textarea.input {
-    height: 90px;
-    padding: 15px;
-  }
+    textarea.input {
+      height: 90px;
+      padding: 15px;
+    }
 
-  .input:focus {
-    border-color: var(--main-bg-color);
-  }
+    .input:focus {
+      border-color: var(--main-bg-color);
+    }
 
 /*----------------------------*\
-	Section
+  Section
   \*----------------------------*/
 
   .section {
@@ -152,8 +115,14 @@ var(--main-bg-color)  }
   .section-title {
     text-align: center;
     margin-bottom: 60px;
-   
+
   }
+
+.sec-t{
+    margin-bottom: 2vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
   
 
   .section-title .title {
@@ -181,7 +150,7 @@ var(--main-bg-color)  }
   }
 
 /*=========================================================
-	LOGO
+  LOGO
   ===========================================================*/
 
   .navbar-brand {
@@ -216,7 +185,7 @@ var(--main-bg-color)  }
   }
 
 /*=========================================================
-	NAVIGATION
+  NAVIGATION
   ===========================================================*/
 
   #header {
@@ -358,7 +327,7 @@ var(--main-bg-color)  }
   }
 
 /*=========================================================
-	HOME
+  HOME
   ===========================================================*/
 
   #home {
@@ -396,7 +365,7 @@ var(--main-bg-color)  }
   }
 
 /*=========================================================
-	ABOUT
+  ABOUT
   ===========================================================*/
 
   #numbers {
@@ -601,7 +570,7 @@ background: #eed0ff;
 }
 
 /*=========================================================
-	GALERY
+  GALERY
   ===========================================================*/
 
   #galery-owl .owl-item .galery-item {
@@ -661,7 +630,7 @@ background: #eed0ff;
   }
 
 /*=========================================================
-	SPEAKERS
+  SPEAKERS
   ===========================================================*/
 
   #speakers {
@@ -759,7 +728,7 @@ background: #eed0ff;
   }
 
 /*----------------------------*\
-	Speaker Modal
+  Speaker Modal
   \*----------------------------*/
 
   .speaker-modal .modal-dialog {
@@ -858,7 +827,7 @@ background: #eed0ff;
   }
 
 /*=========================================================
-	EVENTS
+  EVENTS
   ===========================================================*/
 
   .event {
@@ -967,7 +936,7 @@ background: #eed0ff;
   }
 
 /*=========================================================
-	SPONSORS
+  SPONSORS
   ===========================================================*/
 
   .sponsor {
@@ -987,12 +956,12 @@ background: #eed0ff;
   }
 
 /*=========================================================
-	CONTACT
+  CONTACT
   ===========================================================*/
 
   #contact.section {
     padding-bottom: 0px;
-   
+
     
   }
 
@@ -1012,7 +981,7 @@ background: #eed0ff;
   }
 
 /*=========================================================
-	CTA
+  CTA
   ===========================================================*/
 
   .cta-content h2 {
@@ -1040,11 +1009,12 @@ background: #eed0ff;
   }
 
 /*=========================================================
-	FOOTER
+  FOOTER
   ===========================================================*/
 
   #footer {
-    padding: 60px 0px;
+    padding: 1vh 0 1vh 0;
+    background-color:var(--main-bg-color);
   }
 
   .footer-brand {
@@ -1058,6 +1028,8 @@ background: #eed0ff;
   .copyright {
     height: 50px;
     line-height: 50px;
+    color: azure;
+      text-align: center;
   }
 
   .contact-social {
@@ -1084,7 +1056,7 @@ background: #eed0ff;
   }
 
 /*=========================================================
-	BLOG
+  BLOG
   ===========================================================*/
 
   .blog {
@@ -1225,7 +1197,7 @@ background: #eed0ff;
   }
 
 /*=========================================================
-	RESPONSIVE
+  RESPONSIVE
   ===========================================================*/
 
   @media only screen and (max-width: 991px) {
@@ -1235,7 +1207,7 @@ background: #eed0ff;
     }
     .copyright {
       display: block;
-      text-align: center;
+     
     }
   }
 
@@ -1274,9 +1246,9 @@ background: #eed0ff;
     }
   }
 
-  #feedback-section {
-    padding-top: 90px;
+    padding-top: 5vh;
 /*     background-color: #f9f9fa; */
+  #feedback-section {
   }
 
   #feedback-section label {
@@ -1586,27 +1558,29 @@ background: #eed0ff;
   }
   #faqs .faq-icon {
     float: left;
-    background: #df4638;
+    background: #3158dd;
     padding: 10px;
     border-radius: 50%;
     transition: .5s;
-    border: 1px solid #df4638;
+    border: 1px solid #3158dd;
     cursor: pointer;
+    margin-top: 1.5rem;
   }
   #faqs .faq-icon i {
     color: #fff;
     font-size: 24px
   }
   #faqs .faq-item:hover .faq-icon {
-    background: #fff
+    background: #fff;
   }
   #faqs .faq-item:hover .faq-icon i {
-    color: #df4638
+    color: #3158dd;
   }
   #faqs .faq-title {
     margin-left: 60px;
     font-weight: 700;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    color: #444;
   }
   #faqs .faq-title a {
     color: #111
@@ -1616,11 +1590,17 @@ background: #eed0ff;
     line-height: 24px;
     font-size: 1.2em;
     margin-bottom: 15px;
+    color: #807d7d;
   }
 
+  #faqs {
+    background: #f9f9fa;
+  }
 
 
 
   .control-label {
     margin-bottom: 10px;
   }
+
+
