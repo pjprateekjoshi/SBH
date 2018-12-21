@@ -1,41 +1,4 @@
-/*
-Template Name: Event HTML TEMPLATE
-Author: yaminncco
 
-Colors:
-	Body 		  : #444
-	Headers 	: #0b0f28
-	Primary 	: #dd0a37
-	Dark 		  : #000
-	Grey 		  : #F9F9FA #DADADA
-
-Fonts:
-
-Table OF Contents
-------------------------------------
-GENERAL
-LOGO
-NAVIGATION
-HOME
-ABOUT
-GALERY
-SPEAKERS
-EVENTS
-SPONSORS
-CONTACT
-CTA
-FOOTER
-BLOG
-RESPONSIVE
-------------------------------------*/
-
-/*=========================================================
-	GENERAL
-  ===========================================================*/
-
-/*----------------------------*\
-	typography
-  \*----------------------------*/
   :root {
     --main-bg-color: #3158dd;
   }
@@ -154,6 +117,12 @@ RESPONSIVE
     margin-bottom: 60px;
 
   }
+
+.sec-t{
+    margin-bottom: 2vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
   
 
   .section-title .title {
@@ -862,7 +831,8 @@ RESPONSIVE
   ===========================================================*/
 
   #footer {
-    padding: 60px 0px;
+    padding: 1vh 0 1vh 0;
+    background-color:var(--main-bg-color);
   }
 
   .footer-brand {
@@ -876,6 +846,8 @@ RESPONSIVE
   .copyright {
     height: 50px;
     line-height: 50px;
+    color: azure;
+      text-align: center;
   }
 
   .contact-social {
@@ -1053,7 +1025,7 @@ RESPONSIVE
     }
     .copyright {
       display: block;
-      text-align: center;
+     
     }
   }
 
@@ -1092,9 +1064,9 @@ RESPONSIVE
     }
   }
 
+    padding-top: 5vh;
+/*     background-color: #f9f9fa; */
   #feedback-section {
-    padding-top: 90px;
-    /*     background-color: #f9f9fa; */
   }
 
   #feedback-section label {
