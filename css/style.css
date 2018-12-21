@@ -841,6 +841,7 @@ var(--main-bg-color)  }
     height: 50px;
     line-height: 50px;
     color: azure;
+      text-align: center;
   }
 
   .contact-social {
@@ -1018,7 +1019,7 @@ var(--main-bg-color)  }
     }
     .copyright {
       display: block;
-      text-align: center;
+     
     }
   }
 
