@@ -37,8 +37,8 @@ RESPONSIVE
 	typography
   \*----------------------------*/
   :root {
-  --main-bg-color: #3158dd;
-}
+    --main-bg-color: #3158dd;
+  }
 
   html,body {
     font-family: 'Quicksand', sans-serif;
@@ -109,26 +109,26 @@ RESPONSIVE
   .main-btn:hover, .main-btn:focus {
     color: #FFF;
     opacity: 0.8;
-var(--main-bg-color)  }
+    var(--main-bg-color)  }
 
-  .input {
-    height: 40px;
-    width: 100%;
-    border: 2px solid #dadada;
-    padding: 0px 15px;
-    border-radius: 2px;
-    -webkit-transition: 0.3s border;
-    transition: 0.3s border;
-  }
+    .input {
+      height: 40px;
+      width: 100%;
+      border: 2px solid #dadada;
+      padding: 0px 15px;
+      border-radius: 2px;
+      -webkit-transition: 0.3s border;
+      transition: 0.3s border;
+    }
 
-  textarea.input {
-    height: 90px;
-    padding: 15px;
-  }
+    textarea.input {
+      height: 90px;
+      padding: 15px;
+    }
 
-  .input:focus {
-    border-color: var(--main-bg-color);
-  }
+    .input:focus {
+      border-color: var(--main-bg-color);
+    }
 
 /*----------------------------*\
 	Section
@@ -152,7 +152,7 @@ var(--main-bg-color)  }
   .section-title {
     text-align: center;
     margin-bottom: 60px;
-   
+
   }
   
 
@@ -810,7 +810,7 @@ var(--main-bg-color)  }
 
   #contact.section {
     padding-bottom: 0px;
-   
+
     
   }
 
@@ -1094,7 +1094,7 @@ var(--main-bg-color)  }
 
   #feedback-section {
     padding-top: 90px;
-/*     background-color: #f9f9fa; */
+    /*     background-color: #f9f9fa; */
   }
 
   #feedback-section label {
@@ -1404,27 +1404,29 @@ var(--main-bg-color)  }
   }
   #faqs .faq-icon {
     float: left;
-    background: #df4638;
+    background: #3158dd;
     padding: 10px;
     border-radius: 50%;
     transition: .5s;
-    border: 1px solid #df4638;
+    border: 1px solid #3158dd;
     cursor: pointer;
+    margin-top: 1.5rem;
   }
   #faqs .faq-icon i {
     color: #fff;
     font-size: 24px
   }
   #faqs .faq-item:hover .faq-icon {
-    background: #fff
+    background: #fff;
   }
   #faqs .faq-item:hover .faq-icon i {
-    color: #df4638
+    color: #3158dd;
   }
   #faqs .faq-title {
     margin-left: 60px;
     font-weight: 700;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    color: #444;
   }
   #faqs .faq-title a {
     color: #111
@@ -1434,11 +1436,17 @@ var(--main-bg-color)  }
     line-height: 24px;
     font-size: 1.2em;
     margin-bottom: 15px;
+    color: #807d7d;
   }
 
+  #faqs {
+    background: #f9f9fa;
+  }
 
 
 
   .control-label {
     margin-bottom: 10px;
   }
+
+
