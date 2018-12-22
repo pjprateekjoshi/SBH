@@ -547,7 +547,7 @@
 								action="https://script.google.com/macros/s/AKfycbx6IdwcJJKPn6LYGyEd_KN9fS6eMolZ4GDSHhdW0w/exec">
 
 								<div class="tab-pane active" id="Registration">
-									<div class="row row-form">
+									<div class="row row-form" >
 										<div class="col-md-6 col-sm-6 col-xs-12">
 											<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="team-name">Team Name</label>
 											<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="team-name" id="team-name">
@@ -556,7 +556,7 @@
 											<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="member">Team Size</label> 
 											<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" id="member" name="member" onchange="addFields()">
 										</div>
-										<p id="limit" class="limit col-md-offset-2 col-md-8 col-sm-12 col-xs-12"></p>
+										<p id="limit" class="limit offset-md-2 col-md-8 col-sm-12 col-xs-12"></p>
 										<h4 class="col-md-12 col-sm-12 col-xs-12" style="text-decoration: underline;"><font color="red">Leader Details</font></h4>
 										<div class="col-md-6 col-sm-6 col-xs-12">							
 											<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="leader-name">Leader Name</label>
@@ -575,11 +575,13 @@
 											<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="leader-org">
 										</div>
 
-										<div class="" id="member-details">
+										<div id="member-details" >
 										</div>
-
+                                        
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
 										<label id="register-label" class="col-md-12 col-sm-12 col-xs-12  control-label"><span style="color: #dd0a37;">Idea</span></label>
 										<textarea required name="Message" class="col-md-12 col-sm-12 col-xs-12 register-input" id="contact-message" placeholder="Submit your idea" required></textarea>
+                                        </div>
 
 
 									</div>

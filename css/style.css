@@ -1475,7 +1475,7 @@ background: #eed0ff;
   }
 
   .close {
-    position: fixed;
+/*    position: fixed;*/
     top: 20px;
     right: 3%;
     font-size: 30px;
