@@ -2,6 +2,16 @@
   :root {
     --main-bg-color: #0c1c50;
   }
+ 
+.centered {
+  color: aliceblue;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: initial;
+    font-size: 1.2em;
+}
 
   html,body {
     font-family: 'Quicksand', sans-serif;

@@ -159,7 +159,7 @@ function addFields(){
       div2.setAttribute("class", "col-md-6 col-sm-6 col-xs-12");
       label_email.for = "member-email"+(i+2);
       label_email.innerHTML = "Member Email";
-      label_email.setAttribute("class","col-md-12 col-sm-12 col-xs-12 text-left");
+      label_email.setAttribute("class","col-md-12 col-sm-12 col-xs-12 float-left");
       input_email.type = "email";
       input_email.setAttribute("class","col-md-12 col-sm-12 col-xs-12 control-label");
       input_email.required = "";
