@@ -1,6 +1,6 @@
 
   :root {
-    --main-bg-color: #3158dd;
+    --main-bg-color: #0c1c50;
   }
 
   html,body {
@@ -513,8 +513,8 @@ background: #eed0ff;
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
   .s-pricing {
-    padding-top: 3.4rem;
-    padding-bottom: 3.4rem;
+    padding-top: 90px;
+    padding-bottom: 90px;
   }
 
   .plans {
@@ -965,8 +965,13 @@ background: #eed0ff;
     
   }
 
+  #contact{
+    padding: 90px 0px;
+  }
+
   .contact {
     text-align: center;
+
     margin-bottom: 30px;
     /* background-image: url("https://wallpapersite.com/images/wallpapers/blur-background-2880x1800-spectrum-electromagnetic-4k-901.jpg"); */
   }
