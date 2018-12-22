@@ -408,6 +408,10 @@
 
 .display-1{
   text-align: center;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 42px;
+
 }
 
 .lead{
