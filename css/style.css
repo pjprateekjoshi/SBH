@@ -1,6 +1,7 @@
 
   :root {
     --main-bg-color: #0c1c50;
+    --secondary-color: #F37224;
   }
 
 .btn{
@@ -1511,7 +1512,7 @@ background: #eed0ff;
   }
   #back2Top:hover {
     background-color: #DDF;
-    color: #000;
+    color: var(--secondary-color);
   }
 
   .register-btn {
