@@ -337,74 +337,7 @@
 </div>
 	</div>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function(){
-
-			function detect_active(){
-	  			// get active
-	  			var get_active = $("#dp-slider .dp_item:first-child").data("class");
-	  			$("#dp-dots li").removeClass("active");
-	  			$("#dp-dots li[data-class="+ get_active +"]").addClass("active");
-	  		}
-	  		$("#dp-next").click(function(){
-	  			var total = $(".dp_item").length;
-	  			$("#dp-slider .dp_item:first-child").hide().appendTo("#dp-slider").fadeIn();
-	  			$.each($('.dp_item'), function (index, dp_item) {
-	  				$(dp_item).attr('data-position', index + 1);
-	  			});
-	  			detect_active();
-
-	  		});
-
-	  		$("#dp-prev").click(function(){
-	  			var total = $(".dp_item").length;
-	  			$("#dp-slider .dp_item:last-child").hide().prependTo("#dp-slider").fadeIn();
-	  			$.each($('.dp_item'), function (index, dp_item) {
-	  				$(dp_item).attr('data-position', index + 1);
-	  			});
-
-	  			detect_active();
-	  		});
-
-	  		$("#dp-dots li").click(function(){
-	  			$("#dp-dots li").removeClass("active");
-	  			$(this).addClass("active");
-	  			var get_slide = $(this).attr('data-class');
-	  			console.log(get_slide);
-	  			$("#dp-slider .dp_item[data-class=" + get_slide + "]").hide().prependTo("#dp-slider").fadeIn();
-	  			$.each($('.dp_item'), function (index, dp_item) {
-	  				$(dp_item).attr('data-position', index + 1);
-	  			});
-	  		});
-
-
-	  		$("body").on("click", "#dp-slider .dp_item:not(:first-child)", function(){
-	  			var get_slide = $(this).attr('data-class');
-	  			console.log(get_slide);
-	  			$("#dp-slider .dp_item[data-class=" + get_slide + "]").hide().prependTo("#dp-slider").fadeIn();
-	  			$.each($('.dp_item'), function (index, dp_item) {
-	  				$(dp_item).attr('data-position', index + 1);
-	  			});
-
-	  			detect_active();
-	  		});
-	  	});
-	  </script>
-	  <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+	
 		
 		<!--carousel ends-->
 		<!--Words Of Wisdom-->
@@ -426,10 +359,10 @@
 						<blockquote>
 							<div class="container">
 								<div class="row">
-									<div class="col-sm-3 my-auto offset-sm-1 text-center">
+									<div class="col-sm-3 my-auto offset-sm-1 text-center pt-3">
 										<img class="rounded-circle" src="./img/modi.jpeg" style="width: 100px;height:100px;">
 									</div>
-									<div class="col-sm-8  my-auto text-left">
+									<div class="col-sm-6  my-auto text-left">
 										<p class="lead text-left">I see startups, technology, and innovations as executive and effective instruments for india's transformation.</p>
 										<small>Narendra Modi</small>
 									</div>
@@ -441,10 +374,10 @@
 						<blockquote>
 							<div class="container">
 								<div class="row">
-									<div class="col-sm-3 my-auto offset-sm-1 text-center">
+									<div class="col-sm-3 my-auto offset-sm-1 text-center pt-3">
 										<img class="rounded-circle" src="http://www.indiaeditor.com/wp-content/uploads/2018/05/IMG_1424-400x330.png" style="width: 100px;height:100px;">
 									</div>
-									<div class="col-sm-8  my-auto text-left">
+									<div class="col-sm-6  my-auto text-left">
 										<p class="lead text-left">You can't say what the outcome of a competition is going to be,so now i am ready to accept any result that comes my way,if i give my best shot.</p>
 										<small>Rajyavardhan Singh Rathore</small>
 									</div>
@@ -457,10 +390,10 @@
 						<blockquote>
 							<div class="container">
 								<div class="row">
-									<div class="col-sm-3 my-auto offset-sm-1 text-center">
+									<div class="col-sm-3 my-auto offset-sm-1 text-center pt-3">
 										<img class="rounded-circle" src="https://www.biography.com/.image/t_share/MTE5NDg0MDU0NTIzODQwMDE1/steven-jobs-9354805-2-402.jpg" style="width: 100px;height:100px;">
 									</div>
-									<div class="col-sm-8  my-auto text-left">
+									<div class="col-sm-6  my-auto text-left">
 										<p class="lead text-left">Innovation distinguishes between a leader and a follower..</p>
 										<small>Steve Jobs</small>
 									</div>
@@ -473,10 +406,10 @@
 						<blockquote>
 							<div class="container">
 								<div class="row">
-									<div class="col-sm-3 my-auto offset-sm-1 text-center mt-2">
+									<div class="col-sm-3 my-auto offset-sm-1 text-center pt-3">
 										<img class="rounded-circle" src="https://pbs.twimg.com/profile_images/918825630006853632/Blp2RId7_400x400.jpg" style="width: 100px;height: 100px;">
 									</div>
-									<div class="col-sm-8  my-auto text-left">
+									<div class="col-sm-6  my-auto text-left">
 										<p class="lead text-left">No defeat is final,until you stop trying.</p>
 										<small> - Prakash Javadekar</small>
 									</div>
@@ -489,10 +422,10 @@
 						<blockquote>
 							<div class="container">
 								<div class="row">
-									<div class="col-sm-3 my-auto offset-sm-1 text-center">
+									<div class="col-sm-3 my-auto offset-sm-1 text-center pt-3">
 										<img class="rounded-circle" src="./img/dhirubhai.jpeg" style="width: 100px;height:100px;">
 									</div>
-									<div class="col-sm-8  my-auto text-left">
+									<div class="col-sm-6  my-auto text-left">
 										<p class="lead text-left">If you don't build your dream.Someone else will hire you to help them build theirs.</p>
 										<small> - Dhirubhai Ambani</small>
 									</div>
@@ -999,7 +932,21 @@
 				<!-- /Footer -->
 
 
-				<!-- jQuery Plugins -->
+				<!-- jQuery Plugins --><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 				<script src="js/jquery.min.js"></script>
 				<script src="js/bootstrap.min.js"></script>
 				<script src="js/jquery.waypoints.min.js"></script>
