@@ -7,20 +7,18 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<title>SBH</title>
+	<!--carousel css-->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<!--carosel ends-->
+	
 	<link rel="icon" href="./img/sbh-logo.ico" />
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
 	<!-- Bootstrap -->
 	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!-- Owl Carousel -->
-	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
-	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
-	<!-- Font Awesome Icon -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	
@@ -93,7 +91,8 @@
 							</li>
 						</ul>
 					</div>
-					<a class="navbar-brand mx-auto" href="#"><img src="final.png"></a>
+					<div class="d-none d-lg-block d-md-block">
+					<a class="navbar-brand mx-auto " href="#"><img src="final.png" style="margin-top: -60px;"></a></div>
 					<div class="navbar-collapse  collapse">
 						<ul class="nav navbar-nav ml-auto">
 							<li class="nav-item">
@@ -108,6 +107,14 @@
 						</ul>
 					</div>
 				</nav>
+				
+				<div class="fixed-top  justify-content-end  d-sm-block d-xs-block d-md-none " >
+					
+						<img class="brand1" src="final.png"></a></div>
+					
+					
+				</div>
+
 
                    <!-- <div class="navbar-brand .hidden-md .hidden-lg">
 						<a class="logo" href="index.html">
@@ -165,13 +172,14 @@
 		<!-- /Home -->
 
 		<!-- About -->
-		<div id="about" class="section container">
+		<div id="about" class="section ">
+            <div class="container">
 
 			<div class="row">
 				<!-- <div class="col"></div> -->
 				<div class="col">
-					<div class="section-title" style="margin-top: 12vh">
-						<h5 class="title  fadeInLeft">About  Event</h5>
+					<div class="section-title">
+						<h5 class="title fadeInLeft">About  Event</h5>
 					</div>
 				</div>
 			</div>
@@ -191,7 +199,7 @@
 						<!-- row -->
 						<div class="row">
 							<!-- number -->
-							<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="col-md-3 col-sm-3 col-xs-6 text-center">
 								<div class="number">
 									<h3>
 										<span class="counter" data-from="0" data-to="36" data-speed="1500">0</span>
@@ -201,7 +209,7 @@
 							</div>
 							<!-- /number -->
 							<!-- number -->
-							<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="col-md-3 col-sm-3 col-xs-6 text-center">
 								<div class="number">
 									<h3>
 										<span class="counter" data-from="0" data-to="500" data-speed="1500">0</span>+
@@ -211,7 +219,7 @@
 							</div>
 							<!-- /number -->
 							<!-- number -->
-							<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="col-md-3 col-sm-3 col-xs-6 text-center">
 								<div class="number">
 									<h3>
 										<span class="counter" data-from="0" data-to="50" data-speed="1500">0</span>+
@@ -221,7 +229,7 @@
 							</div>
 							<!-- /number -->
 							<!-- number -->
-							<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="col-md-3 col-sm-3 col-xs-6 text-center">
 								<div class="number">
 									<h3>
 										<span class="counter" data-from="0" data-to="20" data-speed="1500">0</span>+
@@ -237,13 +245,106 @@
 
 				</div>
 			</div>
-		</div>
+        </div>
+</div>
 		<!-- /About -->
+ <!--carousel-->
+		
+			
+	<!-- slider -->
+	<div class="container slider1" >
+		<div id="slider">
+  <div class="dp-wrap">
+    <div id="dp-slider">
 
+      <div class="dp_item mx-auto" data-class="1" data-position="1">
+        
+        <div class="dp-img ">
+          <img class="img-fluid" src="https://placeimg.com/821/739/any" alt="investing">
+        </div>
+      </div>
+
+      <div class="dp_item mx-auto" data-class="2" data-position="2">
+  
+        <div class="dp-img">
+          <img class="img-fluid" src="https://placeimg.com/821/738/any" alt="investing">
+        </div>
+      </div>
+
+      <div class="dp_item mx-auto" data-class="3" data-position="3">
+        
+        <div class="dp-img ">
+          <img class="img-fluid" src="https://placeimg.com/821/737/any" alt="investing">
+        </div>
+      </div>
+
+<!--
+      <div class="dp_item" data-class="4" data-position="4">
+        <div class="dp-content">
+
+          <h2>Slide 4</h2>
+          <p> This is Slide 4 </p>
+          <a href="#" class="site-btn">Read More…</a>
+        </div>
+        <div class="dp-img">
+          <img class="img-fluid" src="https://placeimg.com/821/736/any" alt="investing">
+        </div>
+      </div>
+-->
+    </div>
+
+    <span id="dp-next">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: none;
+              stroke: #fa8c8c;
+              stroke-miterlimit: 10;
+              stroke-width: 7px;
+            }
+          </style>
+        </defs>
+        <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" class="cls-1" d="M32.246,0V33.178L0,31.953" transform="translate(0.094 25.276) rotate(-45)"/>
+      </svg>
+    </span>
+
+    <span id="dp-prev">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: none;
+              stroke: #fa8c8c;
+              stroke-miterlimit: 10;
+              stroke-width: 7px;
+            }
+          </style>
+        </defs>
+        <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" class="cls-1" d="M32.246,0V33.178L0,31.953" transform="translate(0.094 25.276) rotate(-45)"/>
+      </svg>
+    </span>
+
+
+
+    <!--<ul id="dp-dots">
+      <li data-class="1" class="active"></li>
+      <li data-class="2"></li>
+      <li data-class="3"></li>
+      <li data-class="4"></li>
+    </ul>-->
+  </div>
+</div>
+	</div>
+
+	
+		
+		<!--carousel ends-->
 		<!--Words Of Wisdom-->
 
-		<div class="quotes container" style="background-color: #F9F9FA;">
-			<div class=" wow fadeInUp">
+		<div class="quotes">
+            <div class="container">
+                <div class=" wow fadeInUp">
 					<div class="row ">
 						<div class="section-title  my-auto mx-auto pt-5 pb-2">
 							<h3 class="title"><span></span> <span style="color: #00214d;">Words Of Wisdom</span></h3>
@@ -251,16 +352,17 @@
 						</div>
 					</div>
 				</div>          
+            
 			<div id="carouselContent" class="carousel slide py-5 " data-ride="carousel">
 				<div class="carousel-inner" role="listbox">
 					<div class="carousel-item active text-center p-4">
 						<blockquote>
 							<div class="container">
 								<div class="row">
-									<div class="col-sm-3  offset-sm-2 text-center">
+									<div class="col-sm-3 my-auto offset-sm-1 text-center pt-3">
 										<img class="rounded-circle" src="./img/modi.jpeg" style="width: 100px;height:100px;">
 									</div>
-									<div class="col-sm-5  my-auto text-left">
+									<div class="col-sm-6  my-auto text-left">
 										<p class="lead text-left">I see startups, technology, and innovations as executive and effective instruments for india's transformation.</p>
 										<small>Narendra Modi</small>
 									</div>
@@ -272,10 +374,10 @@
 						<blockquote>
 							<div class="container">
 								<div class="row">
-									<div class="col-sm-3  offset-sm-2 text-center">
+									<div class="col-sm-3 my-auto offset-sm-1 text-center pt-3">
 										<img class="rounded-circle" src="http://www.indiaeditor.com/wp-content/uploads/2018/05/IMG_1424-400x330.png" style="width: 100px;height:100px;">
 									</div>
-									<div class="col-sm-5  my-auto text-left">
+									<div class="col-sm-6  my-auto text-left">
 										<p class="lead text-left">You can't say what the outcome of a competition is going to be,so now i am ready to accept any result that comes my way,if i give my best shot.</p>
 										<small>Rajyavardhan Singh Rathore</small>
 									</div>
@@ -288,10 +390,10 @@
 						<blockquote>
 							<div class="container">
 								<div class="row">
-									<div class="col-sm-3  offset-sm-2 text-center">
+									<div class="col-sm-3 my-auto offset-sm-1 text-center pt-3">
 										<img class="rounded-circle" src="https://www.biography.com/.image/t_share/MTE5NDg0MDU0NTIzODQwMDE1/steven-jobs-9354805-2-402.jpg" style="width: 100px;height:100px;">
 									</div>
-									<div class="col-sm-5  my-auto text-left">
+									<div class="col-sm-6  my-auto text-left">
 										<p class="lead text-left">Innovation distinguishes between a leader and a follower..</p>
 										<small>Steve Jobs</small>
 									</div>
@@ -304,10 +406,10 @@
 						<blockquote>
 							<div class="container">
 								<div class="row">
-									<div class="col-sm-3  offset-sm-2 text-center">
-										<img class="rounded-circle" src="https://pbs.twimg.com/profile_images/918825630006853632/Blp2RId7_400x400.jpg" style="width: 100px;height:100px;">
+									<div class="col-sm-3 my-auto offset-sm-1 text-center pt-3">
+										<img class="rounded-circle" src="https://pbs.twimg.com/profile_images/918825630006853632/Blp2RId7_400x400.jpg" style="width: 100px;height: 100px;">
 									</div>
-									<div class="col-sm-5  my-auto text-left">
+									<div class="col-sm-6  my-auto text-left">
 										<p class="lead text-left">No defeat is final,until you stop trying.</p>
 										<small> - Prakash Javadekar</small>
 									</div>
@@ -320,10 +422,10 @@
 						<blockquote>
 							<div class="container">
 								<div class="row">
-									<div class="col-sm-3  offset-sm-2 text-center">
+									<div class="col-sm-3 my-auto offset-sm-1 text-center pt-3">
 										<img class="rounded-circle" src="./img/dhirubhai.jpeg" style="width: 100px;height:100px;">
 									</div>
-									<div class="col-sm-5  my-auto text-left">
+									<div class="col-sm-6  my-auto text-left">
 										<p class="lead text-left">If you don't build your dream.Someone else will hire you to help them build theirs.</p>
 										<small> - Dhirubhai Ambani</small>
 									</div>
@@ -343,6 +445,7 @@
 				</a>
 			</div>
 		</div>
+</div>
 
 		<!--Words Of Wisdom-->        
 
@@ -440,7 +543,8 @@
 
 
 <!-- <faq> -->
-	<section id="faqs" class="section container" >
+	<section id="faqs" class="section" >
+        <div class="container">
 		<div class="section-bg"></div> 
 		<div class=" wow fadeInUp">
 			<div class="row">
@@ -514,7 +618,7 @@
 			</div>
 
 			<div class="row row1">
-				<div class="offset-md-4 col-md-5 ">
+				<div class="offset-md-4 col-md-5 " style="margin-left: 0.2%;">
 
 
 
@@ -527,7 +631,7 @@
 
 			</div>
 		</div>
-
+        </div>
 
 	</section>
 
@@ -548,7 +652,9 @@
 					<div class="cta-content text-center">
 						<h2>Get Registered Now!</h2>
 						<p class="lead">Apply to a 36 hour business hackathon, prove to the jury of experts that you are the best and win cash prizes worth 1.75 lakh, and at the same time get the opportunity to get funded by Investors.</p>
-						<button class="register-btn" type="submit" data-toggle="modal" data-target="#myModal">Team Registration</button>
+						<button class="btn-primary register-btn btn" type="submit" data-toggle="modal" data-target="#myModal">Team Registration</button></center>
+						<button class="btn-primary register-btn btn" type="submit" data-toggle="modal" data-target="#ExhibitorModal">Exhibitor Registration</button></center>
+
 					</div>
 				</div>
 			</div>
@@ -569,8 +675,8 @@
 				</div>
 
 				<div class="modal-body">
-					<form class="pure-form" id="registrationForm" method="POST" data-email=""  
-					action="https://script.google.com/macros/s/AKfycbx6IdwcJJKPn6LYGyEd_KN9fS6eMolZ4GDSHhdW0w/exec">
+					<form class="pure-form" id="registrationForm" method="POST" data-email="sbhjecrc@gmail.com"  
+					action="https://script.google.com/macros/s/AKfycby9DF8fFt7lzOWLZS55T6wme2tU6qiaF4Zybe0Zvw/exec">
 
 					<div class="tab-pane active" id="Registration">
 						<div class="row row-form" >
@@ -638,8 +744,8 @@
 			</div>
 
 			<div class="modal-body">
-				<form class="pure-form" id="exhibitorregistrationForm" method="POST" data-email=""  
-				action="https://script.google.com/macros/s/AKfycbwSishuESg7mVfzOI0T21lcOurLL7gz-_CdUjWL99wozy0B5a8/exec">
+				<form class="pure-form" id="exhibitorregistrationForm" method="POST" data-email="sbhjecrc@gmail.com"  
+				action="https://script.google.com/macros/s/AKfycbxQzTYV8StUp5lV3R-1DSn-B7_LHDVFRlxNcUmBnA/exec">
 
 				<div class="tab-pane active" id="Registration">
 					<div class="row row-form" >
@@ -689,8 +795,8 @@
 					<center><button class="feedback-btn" type="submit">Register</button></center>
 				</div>
 			</form>
-			<div style="display:none;" id="registration_message">
-				<span>Your idea is submitted sucessfully!</span>
+			<div style="display:none;" id="exhibitor_registration_message">
+				<span>Your regidtration form is submitted sucessfully!</span>
 			</div>
 		</div>
 	</div>					
@@ -706,7 +812,7 @@
 
 		<div class="section-title">
 
-			<h3 class="title"><span>Important</span> <span style="color: #dd0a37;">Downloads</span></h3>
+			<h3 class="title"><span>Important Downloads</span> </h3>
 		</div>
 		<!-- row -->
 		<div class="row" >
@@ -770,7 +876,7 @@
 
 						<!-- section title -->
 						<div id="feedback-section" class="section-title">
-							<h3 class="title"><span>Contact</span> <span style="color: #dd0a37;">Info</span></h3>
+							<h3 class="title"><span>Contact Info</span> </h3>
 						</div>
 						<div class="row">
 							<div class="col-md-4">
@@ -826,7 +932,21 @@
 				<!-- /Footer -->
 
 
-				<!-- jQuery Plugins -->
+				<!-- jQuery Plugins --><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 				<script src="js/jquery.min.js"></script>
 				<script src="js/bootstrap.min.js"></script>
 				<script src="js/jquery.waypoints.min.js"></script>
@@ -836,10 +956,9 @@
 				<script src="js/google-map.js"></script>
 				<script src="js/jquery.countTo.js"></script>
 				<script src="js/main.js"></script>
-				<!-- <script src="js/form-submission-handler-1.js"></script> -->
-				<!-- <script src="js/form-submission-handler-2.js"></script> -->
+				<script data-cfasync="false" type="text/javascript"	src="js/form-submission-handler-1.js"></script>
+			<script data-cfasync="false" type="text/javascript"	src="js/form-submission-handler-2.js"></script>
 				<!-- Submit the Form to Google Using "AJAX" -->
-				<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 
 				<!-- END -->
 
