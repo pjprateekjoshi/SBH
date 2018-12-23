@@ -10,6 +10,19 @@
 .offset-md-4 .col-md-5{
   margin-left: 0%;
 } 
+
+
+
+.brand1{
+  margin: 0;
+  float: right;
+
+}
+
+.fixed-top{
+      z-index: -10;
+}
+
 .row1{
     margin-left: 4rem;
     margin-right: 4rem;
@@ -1914,6 +1927,9 @@ background: #eed0ff;
             .slider1{
          max-width: 1145px;
         }
+        .d2{
+          display: none;
+        }
 }
 
         /* Large devices (desktops)*/
@@ -1930,6 +1946,8 @@ background: #eed0ff;
         .slider1{
          max-width: 1145px;
         }
+
+
 }
       
 /* Carousel ends*/
