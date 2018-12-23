@@ -8,6 +8,17 @@
 		offset: $(window).height() / 2
 	});
 
+	//smooth scroll
+	$("a[href^='#']").click(function(e) {
+	e.preventDefault();
+	
+	var position = $($(this).attr("href")).offset().top;
+
+	$("body, html").animate({
+		scrollTop: position
+	} /* speed */ );
+});
+
 	// Mobile nav toggle
 	$('.navbar-toggle').on('click',function() {
 		$('.main-nav').toggleClass('open');
