@@ -1843,6 +1843,23 @@ background: #eed0ff;
 		}
 
  /* Extra small devices (portrait phones)*/
+ @media only screen and (min-width:360px) {
+            
+             .dp_item {
+		    height: 51vh;
+            width: 19rem;
+		}
+            #dp-slider,
+		.dp-img img {
+		    height: 52vh;
+            width: 19rem;
+		}
+            .slider1{
+         max-width: 321px;
+        }
+
+
+
         @media only screen and (min-width:575px) {
             
              .dp_item {
