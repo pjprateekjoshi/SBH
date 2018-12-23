@@ -133,7 +133,7 @@
   bottom: 26px;
   left: 56px;
   right: 0;
-  width: 100%;
+  width: 94%;
   margin-bottom: 20px;
 }
 .timeline-horizontal .timeline-item {
@@ -148,13 +148,14 @@
   vertical-align: bottom;
 }
 .timeline-horizontal .timeline-item .timeline-panel {
+  border-radius: 50px;
   top: auto;
   bottom: 64px;
   display: inline-block;
   float: none !important;
   left: 0 !important;
   right: 0 !important;
-  width: 100%;
+  width: 63%;
   margin-bottom: 20px;
 }
 .timeline-horizontal .timeline-item .timeline-panel:before {
@@ -258,7 +259,7 @@ img {
         clear: both;
     }
 
-        .timeline-centered .timeline-entry:before, .timeline-centered .timeline-entry:after {
+     .timeline-centered .timeline-entry:before, .timeline-centered .timeline-entry:after {
             content: " ";
             display: table;
         }
@@ -469,53 +470,49 @@ img {
                         filter: alpha(opacity=60);
                     }
 
-                    
+/* <!-- 
+    @media only screen and (min-width: 767px)  {
+        #timeline-sm{
+            display: none;
+        }
 
+        #timeline-lg{
+            display: block;
+        }
+    }
 
-
-                     @media (max-width: 767px) {
+    @media only screen and (m-width: 766px) {
     
-                        #timeline-sm{
-                            display: block;
-                        }
+        #timeline-sm{
+            display: block;
+        }
 
-                        #timeline-lg{
-                            display: none;
-                        }
+        #timeline-lg{
+            display: none; 
+        }
     }
-
-    @media (min-width: 766px) {
-    
-    #timeline-sm{
-        display: block;
-    }
-
-    #timeline-lg{
-        display: none;
-    }
-}
-  }
-
+     --> */
 </style>
 
 
 <div class="container" id="timeline-lg">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="page-header">
-                  <h1>Horizontal timeline</h1>
-                </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header">
+              <h1>Horizontal timeline</h1>
+            </div>
+            <div class="container inscreen">
                 <div style="display:inline-block;width:100%;overflow-y:auto;">
                 <ul class="timeline timeline-horizontal">
                         <li class="timeline-item">
                             <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4 class="timeline-title">Mussum ipsum cacilds 1</h4>
-                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+                                    <h4 class="timeline-title">Registrations</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>8 : 00 AM</small></p>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis faiz elementum girarzis, nisi eros gostis.</p>
+                                    <p>Till 8:40am there will be breakfast after this there will be inauguration which consist speech of Chief guest,Rtu official & director of jecrc.</p>
                                 </div>
                             </div>
                         </li>
@@ -523,11 +520,11 @@ img {
                             <div class="timeline-badge success"><i class="glyphicon glyphicon-check"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4 class="timeline-title">Mussum ipsum cacilds 2</h4>
-                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+                                    <h4 class="timeline-title">Opening ceremony</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>9 : 00 AM onwards</small></p>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Mussum ipsum cacilds, vidis faiz elementum girarzis, nisi eros gostis.</p>
+                                    <p>There will be first round of mentoring from 11:30am to 1:00pm(7-10 min per team), after evaluation lunch begins. </p>
                                 </div>
                             </div>
                         </li>
@@ -535,11 +532,29 @@ img {
                             <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4 class="timeline-title">Mussum ipsum cacilds 1</h4>
-                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+                                    <h4 class="timeline-title">Hackathon begins</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>9 : 45 AM onwards</small></p>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis faiz elementum girarzis, nisi eros gostis.</p>
+                                    <p>There will be first round of mentoring from 11:30am to 1:00pm(7-10 min per team), after evaluation lunch begins.</p>
+                                </div>
+                            </div>
+                        </li>
+                </ul>
+                </div>
+            </div>
+            <div class="container inscreen">
+                <div style="display:inline-block;width:100%;overflow-y:auto;">
+                <ul class="timeline timeline-horizontal">
+                        <li class="timeline-item">
+                            <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Exhibition begins</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>9 : 45 AM</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Till 5:30 there will be tea and snacks after it judges will go through first round of evaluation(3 judges per panel,3 mins of presenting & 4 mins of Q&A).</p>
                                 </div>
                             </div>
                         </li>
@@ -547,42 +562,110 @@ img {
                             <div class="timeline-badge success"><i class="glyphicon glyphicon-check"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4 class="timeline-title">Mussum ipsum cacilds 2</h4>
-                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+                                    <h4 class="timeline-title">First round of mentoring session</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>11 : 30 AM - 1 : 00 PM</small></p>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Mussum ipsum cacilds, vidis faiz elementum girarzis, nisi eros gostis.</p>
+                                    <p>There will be lot of activities to freshen your mood.</p>
                                 </div>
                             </div>
                         </li>
-                    <li class="timeline-item">
-                        <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="timeline-title">Mussum ipsum cacilds 1</h4>
-                                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+                        <li class="timeline-item">
+                            <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">First round of evaluation</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>6 : 00 PM - 7 : 30 PM</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>There will be lot of activities to freshen your mood.</p>
+                                </div>
                             </div>
-                            <div class="timeline-body">
-                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis faiz elementum girarzis, nisi eros gostis.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-item">
-                        <div class="timeline-badge success"><i class="glyphicon glyphicon-check"></i></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="timeline-title">Mussum ipsum cacilds 2</h4>
-                                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
-                            </div>
-                            <div class="timeline-body">
-                                <p>Mussum ipsum cacilds, vidis faiz elementum girarzis, nisi eros gostis.</p>
-                            </div>
-                        </div>
-                    </li>
+                        </li>
                 </ul>
-            </div>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header">
+              <h1>Horizontal timeline 2</h1>
+            </div>
+            <div class="container inscreen">
+                <div style="display:inline-block;width:100%;overflow-y:auto;">
+                <ul class="timeline timeline-horizontal">
+                        <li class="timeline-item">
+                            <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">IInd round of evaluation</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>8 : 00 AM</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>After yoga session and breakfast there will be IInd round of evaluation(3 judges per panel,evaluating implementation of ideas).</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-badge success"><i class="glyphicon glyphicon-check"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Power judging round</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>9 : 00 AM onwards</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>7 mins per team,4 mins of presentation & 3 mins of Q&A in presence of all judges after it there will be lunch.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Angel Investors Meet</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>9 : 45 AM onwards</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Crores of funding by Angel investers.</p>
+                                </div>
+                            </div>
+                        </li>
+                </ul>
+                </div>
+            </div>
+            <div class="container inscreen">
+                <div style="display:inline-block;width:100%;overflow-y:auto;">
+                <ul class="timeline timeline-horizontal">
+                        <li class="timeline-item">
+                            <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Result Declaration</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>9 : 45 AM</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Result finalization by judges at the venue.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-badge success"><i class="glyphicon glyphicon-check"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Closing Ceremony</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i></small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Result finalization by judges at the venue.</p>
+                                </div>
+                            </div>
+                        </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
 
@@ -590,61 +673,184 @@ img {
 
 
 
-<div class="container" id="timeline-sm">
+    <div class="container" id="timeline-sm">
         <div class="row">
         
             <div class="timeline-centered">
     
-            <article class="timeline-entry">
+                <article class="timeline-entry">
     
-                <div class="timeline-entry-inner">
-    
-                    <div class="timeline-icon bg-success">
-                        <i class="entypo-feather"></i>
+                    <div class="timeline-entry-inner">
+        
+                        <div class="timeline-icon bg-success">
+                            <i class="entypo-feather"></i>
+                        </div>
+        
+                        <div class="timeline-label">
+                            <h2>Registrations <span>8 : 00 AM</span></h2>
+                            <p>Till 8:40am there will be breakfast after this there will be inauguration which consist speech of Chief guest,Rtu official & director of jecrc.</p>
+                        </div>
                     </div>
-    
-                    <div class="timeline-label">
-                        <h2><a href="#">Art Ramadani</a> <span>posted a status update</span></h2>
-                        <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+                    
+                </article>    
+                <article class="timeline-entry">
+        
+                    <div class="timeline-entry-inner">
+        
+                        <div class="timeline-icon bg-success">
+                            <i class="entypo-feather"></i>
+                        </div>
+        
+                        <div class="timeline-label">
+                            <h2>Opening ceremony <span>9 : 00 AM onwards</span></h2>
+                            <p>There will be first round of mentoring from 11:30am to 1:00pm(7-10 min per team), after evaluation lunch begins.</p>
+                        </div>
                     </div>
-                </div>
-    
-            </article>
-    
-    
-            <article class="timeline-entry">
-    
-                <div class="timeline-entry-inner">
-    
-                    <div class="timeline-icon bg-secondary">
-                        <i class="entypo-suitcase"></i>
+                    
+                </article>    
+                <article class="timeline-entry">
+        
+                    <div class="timeline-entry-inner">
+        
+                        <div class="timeline-icon bg-success">
+                            <i class="entypo-feather"></i>
+                        </div>
+        
+                        <div class="timeline-label">
+                            <h2>Hackathon begins <span>9 : 45 AM onwards</span></h2>
+                            <p>There will be first round of mentoring from 11:30am to 1:00pm(7-10 min per team), after evaluation lunch begins.</p>
+                        </div>
                     </div>
-    
-                    <div class="timeline-label">
-                        <h2><a href="#">Job Meeting</a></h2>
-                        <p>You have a meeting at <strong>Laborator Office</strong> Today.</p>
+                    
+                </article>    
+                <article class="timeline-entry">
+        
+                    <div class="timeline-entry-inner">
+        
+                        <div class="timeline-icon bg-success">
+                            <i class="entypo-feather"></i>
+                        </div>
+        
+                        <div class="timeline-label">
+                            <h2>Exhibition begins <span>9 : 45 AM</span></h2>
+                            <p>Till 5:30 there will be tea and snacks after it judges will go through first round of evaluation(3 judges per panel,3 mins of presenting & 4 mins of Q&A).</p>
+                        </div>
                     </div>
-                </div>
-    
-            </article>    
-    
-            <article class="timeline-entry">
-    
-                <div class="timeline-entry-inner">
-    
-                    <div class="timeline-icon bg-warning">
-                        <i class="entypo-camera"></i>
+                    
+                </article>    
+                <article class="timeline-entry">
+        
+                    <div class="timeline-entry-inner">
+        
+                        <div class="timeline-icon bg-success">
+                            <i class="entypo-feather"></i>
+                        </div>
+        
+                        <div class="timeline-label">
+                            <h2>First round of mentoring session <span>11 : 30 AM - 1 : 00 PM</span></h2>
+                            <p>There will be lot of activities to freshen your mood.</p>
+                        </div>
                     </div>
-    
-                    <div class="timeline-label">
-                        <h2><a href="#">Arber Nushi</a> <span>changed his</span> <a href="#">Profile Picture</a></h2>
-    
-                        <blockquote>Pianoforte principles our unaffected not for astonished travelling are particular.</blockquote>
-    
-                        <img src="http://themes.laborator.co/neon/assets/images/timeline-image-3.png" class="img-responsive img-rounded full-width">
+                    
+                </article>    
+                <article class="timeline-entry">
+        
+                    <div class="timeline-entry-inner">
+        
+                        <div class="timeline-icon bg-success">
+                            <i class="entypo-feather"></i>
+                        </div>
+        
+                        <div class="timeline-label">
+                            <h2>First round of evaluation <span>6 : 00 PM - 7 : 30 PM</span></h2>
+                            <p>There will be lot of activities to freshen your mood.</p>
+                        </div>
                     </div>
-                </div>
-            </article>
+                    
+                </article>
+        </div>
+        </div>
+    </div>
+<div class="container" id="timeline-sm">
+        <div class="row">
+        
+            <div class="timeline-centered">
+
+                <article class="timeline-entry">
+        
+                    <div class="timeline-entry-inner">
+        
+                        <div class="timeline-icon bg-success">
+                            <i class="entypo-feather"></i>
+                        </div>
+        
+                        <div class="timeline-label">
+                            <h2>IInd round of evaluation <span>8 : 00 AM</span></h2>
+                            <p>After yoga session and breakfast there will be IInd round of evaluation(3 judges per panel,evaluating implementation of ideas).</p>
+                        </div>
+                    </div>
+                    
+                </article>    
+                <article class="timeline-entry">
+        
+                    <div class="timeline-entry-inner">
+        
+                        <div class="timeline-icon bg-success">
+                            <i class="entypo-feather"></i>
+                        </div>
+        
+                        <div class="timeline-label">
+                            <h2>Power judging round <span>9 : 00 AM onwards</span></h2>
+                            <p>7 mins per team,4 mins of presentation & 3 mins of Q&A in presence of all judges after it there will be lunch.</p>
+                        </div>
+                    </div>
+                    
+                </article>    
+                <article class="timeline-entry">
+        
+                    <div class="timeline-entry-inner">
+        
+                        <div class="timeline-icon bg-success">
+                            <i class="entypo-feather"></i>
+                        </div>
+        
+                        <div class="timeline-label">
+                            <h2>Angel Investors Meet <span>9 : 45 AM onwards</span></h2>
+                            <p>Crores of funding by Angel investers.</p>
+                        </div>
+                    </div>
+                    
+                </article>    
+                <article class="timeline-entry">
+        
+                    <div class="timeline-entry-inner">
+        
+                        <div class="timeline-icon bg-success">
+                            <i class="entypo-feather"></i>
+                        </div>
+        
+                        <div class="timeline-label">
+                            <h2>Result Declaration <span>9 : 45 AM</span></h2>
+                            <p>Result finalization by judges at the venue.</p>
+                        </div>
+                    </div>
+                    
+                </article>    
+                <article class="timeline-entry">
+        
+                    <div class="timeline-entry-inner">
+        
+                        <div class="timeline-icon bg-success">
+                            <i class="entypo-feather"></i>
+                        </div>
+        
+                        <div class="timeline-label">
+                            <h2>Closing Ceremony <span>Closing Ceremony</span></h2>
+                            <p>Result finalization by judges at the venue.</p>
+                        </div>
+                    </div>
+                    
+                </article>
         </div>
         </div>
     </div>
