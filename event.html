@@ -1,6 +1,7 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!------ Include the above in your HEAD tag ---------->
 
 <style>
@@ -470,32 +471,31 @@ img {
                         filter: alpha(opacity=60);
                     }
 
-/* <!-- 
-    @media only screen and (min-width: 767px)  {
-        #timeline-sm{
-            display: none;
-        }
-
-        #timeline-lg{
-            display: block;
-        }
-    }
-
-    @media only screen and (m-width: 766px) {
+    @media only screen and (max-width: 766px) {
     
-        #timeline-sm{
+        div.timeline-sm{
             display: block;
         }
 
-        #timeline-lg{
+        div.timeline-lg{
             display: none; 
         }
     }
-     --> */
+    @media only screen and (min-width: 767px)  {
+        div.timeline-sm{
+            display: none;
+        }
+
+        div.timeline-lg{
+            display: block;
+        }
+    }
+
 </style>
 
+<!-- timeline -->
 
-<div class="container" id="timeline-lg">
+<div class="container timeline-lg">
     <div class="row">
         <div class="col-md-12">
             <div class="page-header">
@@ -668,12 +668,9 @@ img {
     </div>
     </div>
 
+<!-- small timeline -->
 
-
-
-
-
-    <div class="container" id="timeline-sm">
+    <div class="container timeline-sm">
         <div class="row">
         
             <div class="timeline-centered">
@@ -770,8 +767,6 @@ img {
                 </article>
         </div>
         </div>
-    </div>
-<div class="container" id="timeline-sm">
         <div class="row">
         
             <div class="timeline-centered">
@@ -854,3 +849,5 @@ img {
         </div>
         </div>
     </div>
+
+<!-- /timeline -->
