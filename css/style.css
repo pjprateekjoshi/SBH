@@ -2038,6 +2038,26 @@ background: #eed0ff;
 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
+
+.timeline-panel{
+  background-color: #f5f5f6 !important;
+  color: black !important;
+  transition: 0.7s;
+  cursor: default;
+}
+
+.timeline-panel:hover{
+  color: var(--secondary-color) !important;
+  background-color: var(--main-bg-color) !important;
+}
+
+.bluish{
+  background-color: var(--main-bg-color) !important;
+}
+.orangish{
+  background-color: var(--secondary-color) !important;
+}
+
 .timeline .timeline-item .timeline-panel:before {
 	position: absolute;
 	top: 26px;
@@ -2132,6 +2152,9 @@ background: #eed0ff;
 
 
 
+.bluishfont{
+  color: var(--main-bg-color) !important;
+}
 
 img {
 	vertical-align: middle;
