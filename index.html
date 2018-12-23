@@ -7,6 +7,11 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<title>SBH</title>
+	<!--carousel css-->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<!--carosel ends-->
+	
 	<link rel="icon" href="./img/sbh-logo.ico" />
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
 	<!-- Bootstrap -->
@@ -239,7 +244,165 @@
 			</div>
 		</div>
 		<!-- /About -->
+ <!--carousel-->
+		
+			
+	<!-- slider -->
+	<div class="container slider1" style=" ">
+		<div id="slider">
+  <div class="dp-wrap">
+    <div id="dp-slider">
 
+      <div class="dp_item mx-auto" data-class="1" data-position="1">
+        
+        <div class="dp-img ">
+          <img class="img-fluid" src="https://placeimg.com/821/739/any" alt="investing">
+        </div>
+      </div>
+
+      <div class="dp_item mx-auto" data-class="2" data-position="2">
+  
+        <div class="dp-img">
+          <img class="img-fluid" src="https://placeimg.com/821/738/any" alt="investing">
+        </div>
+      </div>
+
+      <div class="dp_item mx-auto" data-class="3" data-position="3">
+        
+        <div class="dp-img ">
+          <img class="img-fluid" src="https://placeimg.com/821/737/any" alt="investing">
+        </div>
+      </div>
+
+<!--
+      <div class="dp_item" data-class="4" data-position="4">
+        <div class="dp-content">
+
+          <h2>Slide 4</h2>
+          <p> This is Slide 4 </p>
+          <a href="#" class="site-btn">Read More…</a>
+        </div>
+        <div class="dp-img">
+          <img class="img-fluid" src="https://placeimg.com/821/736/any" alt="investing">
+        </div>
+      </div>
+-->
+    </div>
+
+    <span id="dp-next">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: none;
+              stroke: #fa8c8c;
+              stroke-miterlimit: 10;
+              stroke-width: 7px;
+            }
+          </style>
+        </defs>
+        <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" class="cls-1" d="M32.246,0V33.178L0,31.953" transform="translate(0.094 25.276) rotate(-45)"/>
+      </svg>
+    </span>
+
+    <span id="dp-prev">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: none;
+              stroke: #fa8c8c;
+              stroke-miterlimit: 10;
+              stroke-width: 7px;
+            }
+          </style>
+        </defs>
+        <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" class="cls-1" d="M32.246,0V33.178L0,31.953" transform="translate(0.094 25.276) rotate(-45)"/>
+      </svg>
+    </span>
+
+
+
+    <!--<ul id="dp-dots">
+      <li data-class="1" class="active"></li>
+      <li data-class="2"></li>
+      <li data-class="3"></li>
+      <li data-class="4"></li>
+    </ul>-->
+  </div>
+</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+
+			function detect_active(){
+	  			// get active
+	  			var get_active = $("#dp-slider .dp_item:first-child").data("class");
+	  			$("#dp-dots li").removeClass("active");
+	  			$("#dp-dots li[data-class="+ get_active +"]").addClass("active");
+	  		}
+	  		$("#dp-next").click(function(){
+	  			var total = $(".dp_item").length;
+	  			$("#dp-slider .dp_item:first-child").hide().appendTo("#dp-slider").fadeIn();
+	  			$.each($('.dp_item'), function (index, dp_item) {
+	  				$(dp_item).attr('data-position', index + 1);
+	  			});
+	  			detect_active();
+
+	  		});
+
+	  		$("#dp-prev").click(function(){
+	  			var total = $(".dp_item").length;
+	  			$("#dp-slider .dp_item:last-child").hide().prependTo("#dp-slider").fadeIn();
+	  			$.each($('.dp_item'), function (index, dp_item) {
+	  				$(dp_item).attr('data-position', index + 1);
+	  			});
+
+	  			detect_active();
+	  		});
+
+	  		$("#dp-dots li").click(function(){
+	  			$("#dp-dots li").removeClass("active");
+	  			$(this).addClass("active");
+	  			var get_slide = $(this).attr('data-class');
+	  			console.log(get_slide);
+	  			$("#dp-slider .dp_item[data-class=" + get_slide + "]").hide().prependTo("#dp-slider").fadeIn();
+	  			$.each($('.dp_item'), function (index, dp_item) {
+	  				$(dp_item).attr('data-position', index + 1);
+	  			});
+	  		});
+
+
+	  		$("body").on("click", "#dp-slider .dp_item:not(:first-child)", function(){
+	  			var get_slide = $(this).attr('data-class');
+	  			console.log(get_slide);
+	  			$("#dp-slider .dp_item[data-class=" + get_slide + "]").hide().prependTo("#dp-slider").fadeIn();
+	  			$.each($('.dp_item'), function (index, dp_item) {
+	  				$(dp_item).attr('data-position', index + 1);
+	  			});
+
+	  			detect_active();
+	  		});
+	  	});
+	  </script>
+	  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+		
+		<!--carousel ends-->
 		<!--Words Of Wisdom-->
 
 		<div class="quotes container" style="background-color: #F9F9FA;">
