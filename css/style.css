@@ -3,6 +3,7 @@
     --main-bg-color: #0c1c50;
   }
 
+
 .row1{
     margin-left: 4rem;
     margin-right: 4rem;
@@ -219,6 +220,27 @@
   #header:not(.transparent-navbar) .navbar-brand .logo .logo-alt-img {
     display: none;
   }
+
+    .navbar{
+  
+    padding: 22px;
+  }
+
+  .nav-link{
+    color:#FFF;
+  }
+
+  @media (min-width: 768px) {
+.navbar-brand
+    {
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
 
 /*=========================================================
   NAVIGATION
@@ -1474,13 +1496,13 @@ background: #eed0ff;
   }
 
   .register-btn {
-    display: inline-block;
-    padding: 14px 14px;
-    background: var(--main-bg-color);
+    /*display: inline-block;
+    padding: 14px 14px;*/
+    /*background: var(--main-bg-color);*/
     color: #FFF;
     text-transform: uppercase;
     border: none;
-    border-radius: 2px;
+    /*border-radius: 2px;*/
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
     margin-top: 20px;
