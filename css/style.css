@@ -1531,6 +1531,7 @@ background: #eed0ff;
     transition: 0.3s all;
     margin-top: 20px;
     margin-left: 26px;
+      font-weight: 800;
   }
   .register-btn:hover {
     color: #FFF;
