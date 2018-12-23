@@ -119,7 +119,7 @@
   .main-btn {
     display: inline-block;
     padding: 14px 50px;
-    background: var(--main-bg-color);
+    background: var(--secondary-color);
     color: #FFF;
     text-transform: uppercase;
     border: none;
@@ -131,7 +131,7 @@
   .main-btn:hover, .main-btn:focus {
     color: #FFF;
     opacity: 0.8;
-    var(--main-bg-color)  }
+    var(--secondary-color)  }
 
     .input {
       height: 40px;
@@ -292,7 +292,7 @@
     left: 0;
     right: 0;
     top: 0;
-    background: #0177FC;
+    background: #0c1c50;
     -webkit-box-shadow: 0px 0px 3px #0003;
     box-shadow: 0px 0px 3px #0003;
     border-bottom: none;
@@ -346,16 +346,16 @@
     bottom: -3px;
     width: 100%;
     left: 0;
-    background: var(--main-bg-color);
+    background: var(--secondary-color);
   }
 
   .main-nav li a:hover, .main-nav li a:focus {
     background-color: transparent;
-    color: var(--main-bg-color);
+    color: var(--secondary-color);
   }
 
   #header.transparent-navbar .main-nav li a:hover {
-    color: var(--main-bg-color);
+    color: var(--secondary-color);
   }
 
   .navbar-toggle {
@@ -399,7 +399,7 @@
       color: #0b0f28;
     }
     .main-nav li a:hover, .main-nav li a:focus, .main-nav li.active a {
-      background-color: var(--main-bg-color);
+      background-color: var(--secondary-color);
       color: #fff !important;
     }
     .navbar-toggle {
@@ -430,7 +430,7 @@
   .home-content h1 {
     text-transform: capitalize;
     font-weight: 1100;
-    color: #FFF;
+    color: var(--secondary-color);
   }
 
   .home-content h4 {
@@ -1521,18 +1521,21 @@ background: #eed0ff;
   .register-btn {
     /*display: inline-block;
     padding: 14px 14px;*/
-    /*background: var(--main-bg-color);*/
-    color: #FFF;
+    background: var(--main-bg-color);
+    color: var(--secondary-color);
     text-transform: uppercase;
     border: none;
+      border-color: var(--secondary-color);
     /*border-radius: 2px;*/
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
     margin-top: 20px;
     margin-left: 26px;
+      font-weight: 800;
   }
   .register-btn:hover {
     color: #FFF;
+      background-color: var(--secondary-color);
     opacity: 0.8;
   }
 
