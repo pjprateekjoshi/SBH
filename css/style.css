@@ -158,7 +158,7 @@
 
   .section {
     position: relative;
-    padding: 90px 0px; 
+    padding: 60px 0px; 
   }
 
   .section-bg {
@@ -1049,13 +1049,11 @@ background: #eed0ff;
   ===========================================================*/
 
   #contact.section {
-    padding-bottom: 0px;
-
-    
+    padding-bottom: 0px;  
   }
 
   #contact{
-    padding: 90px 0px;
+    padding: 60px 0px;
   }
 
   .contact {
