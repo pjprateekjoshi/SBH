@@ -253,6 +253,10 @@
     color:#FFF;
   }
 
+  .nav-link:hover{
+    color: #F37224;
+  }
+
   @media (min-width: 768px) {
 .navbar-brand
     {
