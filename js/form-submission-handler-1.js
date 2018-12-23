@@ -99,7 +99,6 @@
     }
   }
   function loaded() {
-    console.log("Registration form submission handler loaded successfully.");
     // bind to the submit event of our form
     var form = document.getElementById("exhibitorregistrationForm");
     form.addEventListener("submit", handleFormSubmit, false);
