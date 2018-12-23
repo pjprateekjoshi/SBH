@@ -129,7 +129,7 @@
 								<h4 class="lead">Sponsored by TEQIP III & jointly organised by RTU. </h4>
 								<h4>23-24 Feb 2019</h4>
 								<button class="register-btn" type="submit" data-toggle="modal" data-target="#myModal">Team Registration</button></center>
-								<button class="register-btn" type="submit" data-toggle="modal" data-target="#myModal">Exhibitor Registration</button></center>
+								<button class="register-btn" type="submit" data-toggle="modal" data-target="#ExhibitorModal">Exhibitor Registration</button></center>
 
 							</div>
 						</div>
@@ -543,7 +543,7 @@
 						<div class="modal-content">
 							<div class="modal-header">
 								<h3 id="myModalLabel">
-									Registration
+									Team Registration
 								</h3>
 								<i class="fa fa-close close" data-dismiss="modal"></i>
 							</div>
@@ -585,7 +585,7 @@
 										</div>
                                         
                                         <div class="col-md-12 col-sm-12 col-xs-12">
-										<label id="register-label" class="col-md-12 col-sm-12 col-xs-12  control-label"><span style="color: #dd0a37;">Idea</span></label>
+										<label id="register-label" class="col-md-12 col-sm-12 col-xs-12  control-label"><span style="color: red;">Idea</span></label>
 										<textarea required name="Message" class="col-md-12 col-sm-12 col-xs-12 register-input" id="contact-message" placeholder="Submit your idea" required></textarea>
                                         </div>
 
@@ -603,6 +603,80 @@
 					</div>					
 				</div>
 			</div>
+    
+    
+    
+<!--    Exhibitor form -->
+    <div class="modal fade text-center" id="ExhibitorModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3 id="myModalLabel">
+									Exhibitor Registration
+								</h3>
+								<i class="fa fa-close close" data-dismiss="modal"></i>
+							</div>
+
+							<div class="modal-body">
+								<form class="pure-form" id="registrationForm" method="POST" data-email=""  
+								action="">
+
+								<div class="tab-pane active" id="Registration">
+									<div class="row row-form" >
+										<div class="col-md-6 col-sm-6 col-xs-12">
+											<label class="col-md-12 col-sm-12 col-xs-12+ text-left" for="team-name">Name</label>
+											<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="contact-name" id="contact-name" placeholder="Name">
+										</div>
+										<div class="col-md-6 col-sm-6 col-xs-12">
+											<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="contact-email">Email</label> 
+											<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="email" id="contact-email" name="contact-email" placeholder="cool@example.com">
+                                        </div>
+										<div class="col-md-6 col-sm-6 col-xs-12">							
+											<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="contact-number">Mobile Number</label>
+											<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="number" name="contact-number" max="9999999999x" placeholder="8974562125">
+										</div>
+										<div class="col-md-6 col-sm-6 col-xs-12">								
+											<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="contact-company">Company name</label>
+											<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="contact-company" placeholder="Comapny name">
+										</div>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">								
+											<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="contact-address">Company Address</label>
+											<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="contact-address" placeholder="Address">
+										</div>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">								
+											<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="contact-regno">Company's Reg. No, with date</label>
+											<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="contact-regno" placeholder="REG123 & 1/1/19">
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <label id="register-label" class="col-md-12 col-sm-12 col-xs-12  control-label" for="about-startup"><span style="color: red;">About your startup</span></label>
+                                            <textarea required name="about-startup" class="col-md-12 col-sm-12 col-xs-12 register-input" id="about-startup" placeholder="Some brief introduction about your startup" required></textarea>
+                                        </div>
+                                        
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <label id="register-label" class="col-md-12 col-sm-12 col-xs-12  control-label" for="any-req"><span style="color: red;">Any other requirements</span></label>
+                                            <textarea name="any-req" class="col-md-12 col-sm-12 col-xs-12 register-input" id="any-req" placeholder="Specify any requirment if there"></textarea>
+                                        </div>
+
+
+									</div>
+									<p>* Downlaod Exhibitor's manual from <a href="Exhibitors_Manual-_SBH.pdf" target="_blank"  download><font color="red">here</font></a></p>
+									<p style="text-decoration: underline;">Note:</p>
+                                        <ul style="margin-top: -1rem">
+                                            <li>* Stalls will be of size 10*10.</li>
+                                            <li>* Registration fee for Exhibitor: ₹1000 + ₹4000(refundable) = ₹5000</li>
+                                    </ul>
+                                    
+									<center><button class="feedback-btn" type="submit">Register</button></center>
+								</div>
+							</form>
+							<div style="display:none;" id="registration_message">
+								<span>Your idea is submitted sucessfully!</span>
+							</div>
+						</div>
+					</div>					
+				</div>
+			</div>
+<!--    /Exhibitor form -->
 			<!-- /CTA -->
 <!--Download-->
 		<div id="download" class="section">
