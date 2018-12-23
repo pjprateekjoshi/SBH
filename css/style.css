@@ -3,7 +3,13 @@
     --main-bg-color: #0c1c50;
   }
 
+.btn{
+  padding: 0.700rem 1.9rem;
+}
 
+.offset-md-4 .col-md-5{
+  margin-left: 0%;
+} 
 .row1{
     margin-left: 4rem;
     margin-right: 4rem;
