@@ -289,7 +289,7 @@
     left: 0;
     right: 0;
     top: 0;
-    background: #0177FC;
+    background: var(--main-bg-color);
     -webkit-box-shadow: 0px 0px 3px #0003;
     box-shadow: 0px 0px 3px #0003;
     border-bottom: none;
@@ -427,7 +427,7 @@
   .home-content h1 {
     text-transform: capitalize;
     font-weight: 1100;
-    color: #FFF;
+    color: var(--secondary-color);
   }
 
   .home-content h4 {
@@ -1518,10 +1518,11 @@ background: #eed0ff;
   .register-btn {
     /*display: inline-block;
     padding: 14px 14px;*/
-    /*background: var(--main-bg-color);*/
-    color: #FFF;
+    background: var(--main-bg-color);
+    color: var(--secondary-color);
     text-transform: uppercase;
     border: none;
+      border-color: var(--secondary-color);
     /*border-radius: 2px;*/
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
@@ -1530,6 +1531,7 @@ background: #eed0ff;
   }
   .register-btn:hover {
     color: #FFF;
+      background-color: var(--secondary-color);
     opacity: 0.8;
   }
 
