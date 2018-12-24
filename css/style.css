@@ -1350,6 +1350,10 @@ background: #eed0ff;
     padding-bottom: 10px;
   }
 
+  .form-header{
+    background-color: var(--main-bg-color);
+    color: var(--secondary-color) !important;
+  }
   .feedback-btn {
     display: inline-block;
     padding: 14px 50px;
@@ -1363,8 +1367,8 @@ background: #eed0ff;
     margin-top: 20px;
   }
   .feedback-btn:hover {
-    color: #FFF;
-    opacity: 0.8;
+    color: var(--secondary-color);
+    opacity: 0.9;
   }
   .form-control {
     border-radius: 0;
@@ -1546,7 +1550,7 @@ background: #eed0ff;
     text-transform: capitalize;
     font-weight: 900;
     font-size: 35px;
-    color: var(--main-bg-color);
+    color: #FFF;
   }
 
   .close {

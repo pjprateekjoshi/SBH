@@ -1061,7 +1061,7 @@
 	<div class="modal fade text-center" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
-				<div class="modal-header">
+				<div class="modal-header form-header">
 					<h3 id="myModalLabel">
 						Team Registration
 					</h3>
@@ -1075,17 +1075,17 @@
 					<div class="tab-pane active" id="Registration">
 						<div class="row row-form" >
 							<div class="col-md-6 col-sm-6 col-xs-12">
-								<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="team-name">Team Name</label>
+								<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="team-name"><h4>Team Name</h4></label>
 								<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="team-name" id="team-name">
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-12">
-								<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="member">Team Size</label> 
+								<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="member"><h4>Team Size</h4></label> 
 								<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" id="member" name="member" onchange="addFields()">
 							</div>
 							<p id="limit" class="limit offset-md-2 col-md-8 col-sm-12 col-xs-12"></p>
-							<h4 class="col-md-12 col-sm-12 col-xs-12" style="text-decoration: underline;"><font color="red">Leader Details</font></h4>
-							<div class="col-md-6 col-sm-6 col-xs-12">							
-								<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="leader-name">Leader Name</label>
+							<h3 class="col-md-12 col-sm-12 col-xs-12">Leader Details</h3>
+							<div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: -25px;">							
+								<label class="col-md-12 col-sm-12 col-xs-12 text-left" style="margin: 25px 0 8px 0" for="leader-name">Leader Name</label>
 								<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="leader-name">
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-12">								
@@ -1105,13 +1105,13 @@
 							</div>
 
 							<div class="col-md-12 col-sm-12 col-xs-12">
-								<label id="register-label" class="col-md-12 col-sm-12 col-xs-12  control-label"><span style="color: red;">Idea</span></label>
+								<label id="register-label" class="col-md-12 col-sm-12 col-xs-12  control-label"><span style=""><h3>Idea</h3></span></label>
 								<textarea required name="Message" class="col-md-12 col-sm-12 col-xs-12 register-input" id="contact-message" placeholder="Submit your idea" required></textarea>
 							</div>
 
 
 						</div>
-						<p>* Download format from <a href="format.pdf" target="_blank"  download><font color="red">here</font></a>.</p>
+						<p>* Download format from <a href="format.pdf" target="_blank"  download><font color="var(--secondary-color)">here</font></a>.</p>
 						<p>Note: In case of 4 members, one member must be a girl.</p>
 						<center><button class="feedback-btn" type="submit">Register</button></center>
 					</div>
@@ -1130,7 +1130,7 @@
  <div class="modal fade text-center" id="ExhibitorModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
-			<div class="modal-header">
+			<div class="modal-header form-header">
 				<h3 id="myModalLabel">
 					Exhibitor Registration
 				</h3>
@@ -1145,41 +1145,41 @@
 					<div class="row row-form" >
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<label class="col-md-12 col-sm-12 col-xs-12+ text-left" for="team-name">Name</label>
-							<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="contact-name" id="contact-name" placeholder="Name">
+							<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="contact-name" id="contact-name">
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="contact-email">Email</label> 
-							<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="email" id="contact-email" name="contact-email" placeholder="cool@example.com">
+							<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="email" id="contact-email" name="contact-email">
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">							
 							<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="contact-number">Mobile Number</label>
-							<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="number" name="contact-number" max="9999999999x" placeholder="8974562125">
+							<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="number" name="contact-number" max="9999999999x">
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">								
 							<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="contact-company">Company name</label>
-							<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="contact-company" placeholder="Comapny name">
+							<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="contact-company">
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">								
 							<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="contact-address">Company Address</label>
-							<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="contact-address" placeholder="Address">
+							<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="contact-address">
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">								
-							<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="contact-regno">Company's Reg. No, with date</label>
-							<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="contact-regno" placeholder="REG123 & 1/1/19">
+							<label class="col-md-12 col-sm-12 col-xs-12 text-left" for="contact-regno"><small style="font-size:11px">Company's Reg. No, with date</small></label>
+							<input class="col-md-12 col-sm-12 col-xs-12 control-label" required type="text" name="contact-regno" placeholder="REG123 1/1/19">
 						</div>
 						<div class="col-md-12 col-sm-12 col-xs-12">
-							<label id="register-label" class="col-md-12 col-sm-12 col-xs-12  control-label" for="about-startup"><span style="color: red;">About your startup</span></label>
+							<label id="register-label" class="col-md-12 col-sm-12 col-xs-12  control-label" for="about-startup"><span style=""><h3>About your startup</h3></span></label>
 							<textarea required name="about-startup" class="col-md-12 col-sm-12 col-xs-12 register-input" id="about-startup" placeholder="Some brief introduction about your startup" required></textarea>
 						</div>
 
 						<div class="col-md-12 col-sm-12 col-xs-12">
-							<label id="register-label" class="col-md-12 col-sm-12 col-xs-12  control-label" for="any-req"><span style="color: red;">Any other requirements</span></label>
+							<label id="register-label" class="col-md-12 col-sm-12 col-xs-12  control-label" for="any-req"><span style=""><h4>Any other requirements</h4></span></label>
 							<textarea name="any-req" class="col-md-12 col-sm-12 col-xs-12 register-input" id="any-req" placeholder="Specify any requirment if there"></textarea>
 						</div>
 
 
 					</div>
-					<p>* Downlaod Exhibitor's manual from <a href="Exhibitors_Manual-_SBH.pdf" target="_blank"  download><font color="red">here</font></a></p>
+					<p>* Downlaod Exhibitor's manual from <a href="Exhibitors_Manual-_SBH.pdf" target="_blank"  download><font color="var(--secondary-color)">here</font></a></p>
 					<p style="text-decoration: underline;">Note:</p>
 					<ul style="margin-top: -1rem">
 						<li>* Stalls will be of size 10*10.</li>
