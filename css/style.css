@@ -498,7 +498,7 @@
 }
 
 .item-plan__block {
-  background: #c99bd2;
+  background: var(--main-bg-color);
   border-radius: 4px;
   padding: 1.6rem 1.2rem 1.4rem;
   margin-bottom: 1rem;
@@ -506,7 +506,7 @@
 }
 
 .item-plan .third{
-background: #eed0ff;
+background: var(--main-bg-color);
 }
 
 
@@ -514,9 +514,11 @@ background: #eed0ff;
   font-weight: 700;
   font-size: 1.1rem;
   line-height: 1.333;
-  color: #000000;
+  color: #F37224;
   margin: 0 0 1.6rem 0;
 }
+
+
 
 .item-plan__price,
 .item-plan__per {
@@ -529,7 +531,7 @@ background: #eed0ff;
   font-size: 2.5rem;
   line-height: 1.081;
   font-weight: 600;
-  color: #000000;
+  color: #F37224;
 }
 
 
@@ -569,13 +571,13 @@ background: #eed0ff;
 }
 
 .item-plan--popular .item-plan__block {
-  background-color: #dbb1ea;
+  background-color: var(--main-bg-color);
   border: none;
 }
 
 .item-plan--popular .item-plan__title,
 .item-plan--popular .item-plan__price {
-  color: #000000;
+  color: #F37224;
 }
 
 .item-plan--popular .item-plan__per {
