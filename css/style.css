@@ -2450,7 +2450,6 @@ img {
         div.timeline-lg{
             display: none; 
         }
-    }
     @media only screen and (min-width: 767px)  {
         div.timeline-sm{
             display: none;
