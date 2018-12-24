@@ -23,7 +23,7 @@
 }
 
 .brand1{
-  margin: 0;
+  margin: .4rem;
   float: right;
 
 }
@@ -253,6 +253,7 @@ ul, ol {
   .navbar{
 
     padding: 22px;
+    margin: .3rem;
   }
 
   .nav-link{
@@ -512,11 +513,9 @@ ul, ol {
 }
 
 .item-plan .third{
-<<<<<<< HEAD
-  background: #eed0ff;
-=======
+
 background: var(--main-bg-color);
->>>>>>> 3c2d329a085f31324542841d09c649dae64eb438
+
 }
 
 
