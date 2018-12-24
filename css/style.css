@@ -1908,6 +1908,15 @@ background: var(--main-bg-color);
 }
 
 /* Extra small devices (portrait phones)*/
+@media only screen and (min-width:220px){
+      #clockdiv > div{
+        margin-top: 2rem !important;
+    }  
+    .day{
+        height: 40rem !important;
+    }
+}
+
 @media only screen and (min-width:360px) {
 
  .dp_item {
@@ -1922,6 +1931,14 @@ background: var(--main-bg-color);
 .slider1{
  max-width: 321px;
 }
+    
+    #clockdiv > div{
+        margin-top: 2rem !important;
+    }
+    
+    .day{
+        height: 40rem !important;
+    }
 }
 
 
@@ -1940,6 +1957,13 @@ background: var(--main-bg-color);
 .slider1{
  max-width: 594px;
 }
+     #clockdiv > div{
+        margin-top: 5rem !important;
+    }
+    
+    .day{
+        height: 30rem !important;
+    }
 }
 
 /* Small devices (landscape phones)*/
@@ -2238,6 +2262,9 @@ img {
     margin-bottom: 25px;
 }
 
+
+
+
 .img-circle {
 	border-radius: 50%;
 }
@@ -2462,7 +2489,57 @@ img {
     }
     /* timeline ends */
      
+/*days left*/
+
+.day{
+     background-image: url(../img/pexels-photo-1020323.jpeg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 30rem;
+    overflow: hidden;
+}
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+    width: 100vw;
      
+   background: rgba(0,0,0,0.5);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+    
+}
+
+#clockdiv > div{
+	padding: 20px;
+	border-radius: 3px;
+	background: #0c1c50;
+	display: inline-block;
+    margin-top: 5rem;
+    
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #F37224;
+	display: inline-block;
+    font-size: 3rem;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 26px;
+}
+
+
+
+/*days left end*/
+  /* download buttons*/  
      
      ul.peri-boxes li {
 /*  float: left;*/
@@ -2530,3 +2607,7 @@ transition: 0.8s;
     -webkit-animation-timing-function: ease-out;
   }
 }
+    
+
+    
+    
