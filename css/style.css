@@ -103,7 +103,9 @@ h4 {
 .lead {
   font-size: 20px;
 }
-
+.lead .firsty p{
+  margin-top: -50px;
+}
 a {
   color: #0b0f28;
   -webkit-transition: 0.3s color;
@@ -1688,7 +1690,6 @@ ul, ol {
     transition: .5s;
     border: 1px solid var(--main-bg-color);
     cursor: pointer;
-
     margin-top: 0.5rem;
 
     /*margin-top: 0rem;*/
@@ -2547,6 +2548,7 @@ img {
 .fa1{
     font-size: 4rem;
 }
+
 
 #mytab .nav-tabs > a {
   border-radius: 0;
