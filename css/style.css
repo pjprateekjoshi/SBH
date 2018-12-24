@@ -1551,11 +1551,11 @@ background: var(--main-bg-color);
   .register-btn {
     /*display: inline-block;
     padding: 14px 14px;*/
-    background: var(--main-bg-color);
-    color: var(--secondary-color);
+    background: var(--main-bg-color) !important;
+    color: var(--secondary-color) !important;
     text-transform: uppercase;
     border: none;
-    border-color: var(--secondary-color);
+    border-color: var(--secondary-color) !important;
     /*border-radius: 2px;*/
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
@@ -1564,9 +1564,9 @@ background: var(--main-bg-color);
     font-weight: 800;
   }
   .register-btn:hover {
-    color: #FFF;
-    background-color: var(--secondary-color);
-    opacity: 0.8;
+    color: #FFF !important;
+    background-color: var(--secondary-color) !important;
+    opacity: 0.8 !important;
   }
 
   #myModalLabel {
