@@ -4,6 +4,12 @@
   --secondary-color: #F37224;
 }
 
+#boldy{
+  font-weight: 900;
+  color: #F37224;
+}
+
+
 .btn{
   padding: 0.700rem 1.9rem;
 }
@@ -1368,6 +1374,10 @@ background: var(--main-bg-color);
     padding-bottom: 10px;
   }
 
+  .form-header{
+    background-color: var(--main-bg-color);
+    color: var(--secondary-color) !important;
+  }
   .feedback-btn {
     display: inline-block;
     padding: 14px 50px;
@@ -1381,8 +1391,8 @@ background: var(--main-bg-color);
     margin-top: 20px;
   }
   .feedback-btn:hover {
-    color: #FFF;
-    opacity: 0.8;
+    color: var(--secondary-color);
+    opacity: 0.9;
   }
   .form-control {
     border-radius: 0;
@@ -1564,7 +1574,7 @@ background: var(--main-bg-color);
     text-transform: capitalize;
     font-weight: 900;
     font-size: 35px;
-    color: var(--main-bg-color);
+    color: #FFF;
   }
 
   .close {
@@ -1947,6 +1957,9 @@ background: var(--main-bg-color);
 .slider1{
  max-width: 861px;
 }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 0;
+    }
 }
 
 /* Medium devices (tablets)*/
@@ -1964,6 +1977,10 @@ background: var(--main-bg-color);
 .slider1{
  max-width: 1240px;
 }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding-right: 2.5rem;
+        padding-left: 1.5rem;
+    }
 
 }
 
@@ -1981,6 +1998,10 @@ background: var(--main-bg-color);
   .slider1{
    max-width: 1145px;
  }
+.navbar-expand-md .navbar-nav .nav-link{
+        padding-right: 2.5rem;
+        padding-left: 1.5rem;
+    }
 
 
 }
