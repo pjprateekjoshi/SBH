@@ -498,7 +498,7 @@ ul, ol {
 }
 
 .item-plan__block {
-  background: #c99bd2;
+  background: var(--main-bg-color);
   border-radius: 4px;
   padding: 1.6rem 1.2rem 1.4rem;
   margin-bottom: 1rem;
@@ -506,7 +506,11 @@ ul, ol {
 }
 
 .item-plan .third{
+<<<<<<< HEAD
   background: #eed0ff;
+=======
+background: var(--main-bg-color);
+>>>>>>> 3c2d329a085f31324542841d09c649dae64eb438
 }
 
 
@@ -514,9 +518,11 @@ ul, ol {
   font-weight: 700;
   font-size: 1.1rem;
   line-height: 1.333;
-  color: #000000;
+  color: #F37224;
   margin: 0 0 1.6rem 0;
 }
+
+
 
 .item-plan__price,
 .item-plan__per {
@@ -529,7 +535,7 @@ ul, ol {
   font-size: 2.5rem;
   line-height: 1.081;
   font-weight: 600;
-  color: #000000;
+  color: #F37224;
 }
 
 
@@ -569,13 +575,13 @@ ul, ol {
 }
 
 .item-plan--popular .item-plan__block {
-  background-color: #dbb1ea;
+  background-color: var(--main-bg-color);
   border: none;
 }
 
 .item-plan--popular .item-plan__title,
 .item-plan--popular .item-plan__price {
-  color: #000000;
+  color: #F37224;
 }
 
 .item-plan--popular .item-plan__per {
@@ -1667,13 +1673,17 @@ ul, ol {
 
   #faqs .faq-icon {
     float: left;
-    background: #3158dd;
-    padding: 12px;
+    background: var(--main-bg-color);
+    padding: 16px;
     border-radius: 50%;
     transition: .5s;
     border: 1px solid #3158dd;
     cursor: pointer;
+<<<<<<< HEAD
     margin-top: 0.5rem;
+=======
+    margin-top: 0rem;
+>>>>>>> 3c2d329a085f31324542841d09c649dae64eb438
     
   }
   #faqs .faq-icon i {
@@ -1687,7 +1697,7 @@ ul, ol {
     color: #3158dd;
   }
   #faqs .faq-title {
-    margin-left: 60px;
+    margin-left: 75px;
     font-weight: 700;
     margin-bottom: 15px;
     color: #444;
@@ -1696,7 +1706,7 @@ ul, ol {
     color: #111
   }
   #faqs .faq-description {
-    margin-left: 60px;
+    margin-left: 75px;
     line-height: 24px;
     font-size: 1.2em;
     margin-bottom: 15px;
