@@ -1657,13 +1657,13 @@ background: var(--main-bg-color);
 
   #faqs .faq-icon {
     float: left;
-    background: #3158dd;
-    padding: 12px;
+    background: var(--main-bg-color);
+    padding: 16px;
     border-radius: 50%;
     transition: .5s;
     border: 1px solid #3158dd;
     cursor: pointer;
-      margin-top: 0.5rem;
+    margin-top: 0rem;
     
   }
   #faqs .faq-icon i {
@@ -1677,7 +1677,7 @@ background: var(--main-bg-color);
     color: #3158dd;
   }
   #faqs .faq-title {
-    margin-left: 60px;
+    margin-left: 75px;
     font-weight: 700;
     margin-bottom: 15px;
     color: #444;
@@ -1686,7 +1686,7 @@ background: var(--main-bg-color);
     color: #111
   }
   #faqs .faq-description {
-    margin-left: 60px;
+    margin-left: 75px;
     line-height: 24px;
     font-size: 1.2em;
     margin-bottom: 15px;
