@@ -2475,7 +2475,7 @@ img {
   display: table;
 }
 
-<<<<<<< HEAD
+
         div.timeline-lg{
             display: none; 
         }
@@ -2541,93 +2541,49 @@ img {
 
 
 /*days left end*/
-  /* download buttons*/  
-     
-     ul.peri-boxes li {
-/*  float: left;*/
-=======
-div.timeline-lg{
-  display: none; 
-}
-@media only screen and (min-width: 767px)  {
-  div.timeline-sm{
-    display: none;
-  }
+  
 
-  div.timeline-lg{
-    display: block;
-  }
-}
-/* timeline ends */
-
-
-
-ul.peri-boxes li {
-  /*  float: left;*/
->>>>>>> 58aaa55ce976dd3564ab1fd868f83452abf18b73
-  width: 52px
-  height: 52px
-  margin: 0px
+/*schedule*/
+.fa1{
+    font-size: 4rem;
 }
 
-ul.peri-boxes li a {
-  /*  float: left;*/
-
-  width: 52px
-  height: 37px
-  font-size: 16px
+#mytab .nav-tabs > a {
+  border-radius: 0;
+  
 }
 
-ul.peri-boxes li a.box {
-
-  color: #fff
-  border: 1px solid #000
-  -webkit-box-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000, 5px 5px #000, 6px 6px #000, 7px 7px #000, 8px 8px #000;
-  -moz-box-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000, 5px 5px #000, 6px 6px #000, 7px 7px #000, 8px 8px #000;
-  -webkit-transition: ll 0.3s ease-out
-  -moz-transition: ll 0.3s ease-out
+#mytab .nav-tabs > a:hover {
+  background-color: #f2f2f2;
 }
 
-ul.peri-boxes li a.box:hover {
-  background-color: white;
-  left: -23px;
-  top: -23px;
-  width: 62px;
-  height: 47px;
-  z-index: 1;
-  font-size: 1.5em;
-  border: 1px solid #0c1c50;
+#mytab .active {
+  border-radius: 0;
+  background-color: white !important ;
+  color: #F37224 !important;
+    
+       
+}
+
+#mytab .tab-pane {
+  color: #333 !important;
+  background-color: white !important;
   padding: 15px;
-
-  border-radius: 16px;
-
-  transition: 0.8s;
-
-  -moz-box-shadow: 1px 1px #0c1c50, 2px 2px #0c1c50, 3px 3px #0c1c50, 4px 4px #0c1c50, 5px 5px #0c1c50, 6px 6px #007d9a, 7px 7px #007d9a, 8px 8px #007d9a;
-
-  -webkit-box-shadow: 1px 1px #0c1c50, 2px 2px #0c1c50, 3px 3px #0c1c50, 4px 4px #0c1c50, 5px 5px #0c1c50, 6px 6px #0c1c50, 7px 7px #0c1c50, 8px 8px #0c1c50;
+ 
+}
 
 
-  @-webkit-keyframes boxPulse {
-    from {
-      width: 62px;
-      height: 47px;
-      left: -23px;
-      top: -23px;
-      -webkit-animation-timing-function: ease-out;
-    }
-    50% {
-      width: 58px;
-      height: 45px;
-      top: -19px;
-    }
-    to {
-      width: 62px;
-      height: 47px;
-      left: -23px;
-      top: -23px;
-      -webkit-animation-timing-function: ease-out;
-    }
-  }
-         
+.sc-a{
+   background-color:#0c1c50 !important;
+    color: #F37224 !important;
+       border-style:  solid;
+    border-color: red;
+    
+}
+
+/*schedule ends*/
+
+
+
+
          
