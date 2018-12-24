@@ -2226,7 +2226,7 @@ img {
 	border: 1px solid #ededf0;
 	border-radius: 3px;
 	display: inline-block;
-	height: auto;
+	height: 20vh;
 	line-height: 1.428571429;
 	max-width: 100%;
 	moz-transition: all .2s ease-in-out;
@@ -2485,12 +2485,12 @@ ul.peri-boxes li a.box {
   border: 1px solid #000
   -webkit-box-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000, 5px 5px #000, 6px 6px #000, 7px 7px #000, 8px 8px #000;
   -moz-box-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000, 5px 5px #000, 6px 6px #000, 7px 7px #000, 8px 8px #000;
-  -webkit-transition: ll 0.12s ease-out
-  -moz-transition: ll 0.12s ease-out
+  -webkit-transition: ll 0.3s ease-out
+  -moz-transition: ll 0.3s ease-out
 }
          
 ul.peri-boxes li a.box:hover {
-  background-color: #e3e3ef;
+  background-color: white;
   left: -23px;
   top: -23px;
   width: 62px;
@@ -2499,7 +2499,11 @@ ul.peri-boxes li a.box:hover {
   font-size: 1.5em;
   border: 1px solid #0c1c50;
     padding: 15px;
-         
+    
+    border-radius: 16px;
+    
+transition: 0.8s;
+    
   -moz-box-shadow: 1px 1px #0c1c50, 2px 2px #0c1c50, 3px 3px #0c1c50, 4px 4px #0c1c50, 5px 5px #0c1c50, 6px 6px #007d9a, 7px 7px #007d9a, 8px 8px #007d9a;
          
   -webkit-box-shadow: 1px 1px #0c1c50, 2px 2px #0c1c50, 3px 3px #0c1c50, 4px 4px #0c1c50, 5px 5px #0c1c50, 6px 6px #0c1c50, 7px 7px #0c1c50, 8px 8px #0c1c50;
