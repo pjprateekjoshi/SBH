@@ -134,7 +134,7 @@ function addFields(){
     for (i=0;i<number-1;i++){
       var member = document.createElement("h4");
       member.setAttribute("class","col-md-12 col-sm-12 col-xs-12");
-      member.style = "text-decoration: underline; color: red";
+      member.style = "text-decoration: underline; color: #0c1c50";
       member.innerHTML = "Member "+(i+2)+" Details";
       container.appendChild(member);
       var div1 = document.createElement("div");
