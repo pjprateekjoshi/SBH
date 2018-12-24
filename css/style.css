@@ -1957,6 +1957,9 @@ background: var(--main-bg-color);
 .slider1{
  max-width: 861px;
 }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 0;
+    }
 }
 
 /* Medium devices (tablets)*/
@@ -1974,6 +1977,10 @@ background: var(--main-bg-color);
 .slider1{
  max-width: 1240px;
 }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding-right: 2.5rem;
+        padding-left: 1.5rem;
+    }
 
 }
 
@@ -1991,6 +1998,10 @@ background: var(--main-bg-color);
   .slider1{
    max-width: 1145px;
  }
+.navbar-expand-md .navbar-nav .nav-link{
+        padding-right: 2.5rem;
+        padding-left: 1.5rem;
+    }
 
 
 }
