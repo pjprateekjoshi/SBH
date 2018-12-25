@@ -2587,5 +2587,6 @@ img {
 
 
 
-
-         
+.problem-home {
+  height: 50vh !important;
+}
