@@ -33,7 +33,15 @@
 		wScroll > 50 ? $('#header').addClass('fixed-navbar') : $('#header').removeClass('fixed-navbar');
 	});
 
-	
+	//scroll mouse
+	$(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
+
+
 	// Section title animation
 	$('.section-title').each(function() {
 		var $this = $(this);
