@@ -2590,3 +2590,7 @@ img {
 .problem-home {
   height: 50vh !important;
 }
+
+.social:hover{
+  color: #f37224;
+}
