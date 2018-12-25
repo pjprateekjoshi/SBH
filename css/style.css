@@ -2594,3 +2594,129 @@ img {
 .social:hover{
   color: #f37224;
 }
+
+/* contact form */
+
+.contact-form .heading-title ,
+.pricing-three-column .heading-title ,
+.pricing-four-column .heading-title {
+    padding-bottom: 26px;
+}
+    .contact-form h2 {
+        padding: 0px 0 20px;
+        margin: 0 0 10px;
+    }
+
+    
+    .contact-form h2 {
+        padding: 20px 0 20px;
+        margin: 0 0 10px;
+    }
+
+    .contact-wrap.two .contact-form {
+        padding: 12px 0 0;
+    }
+
+    .contact-form h2 {
+        padding: 20px 0 20px;
+        margin: 0 0 10px;
+        font-size: 33px;
+    }
+
+    .contact-wrap.two .contact-form {
+        padding: 12px 0 0;
+    }
+
+
+#contact_form_submit .form-element textarea{
+    padding: 15px 15px;
+}
+    .sudle .media-body.d-flex.justify-content-between.align-self-center {
+        display: flow-root !important;
+    }
+    
+    .media-body.d-flex.justify-content-between.align-self-center {
+        display: flow-root !important;
+    }
+    
+    .sudle .media-body.d-flex.justify-content-between.align-self-center {
+        display: flow-root !important;
+    }
+
+
+.speaker .media p{
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+.contact-wrap{
+    padding: 92px 0px 100px;
+}
+.address h3{
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.address .a-text{
+    margin-bottom: 35px;
+}
+.address .media {
+    margin-bottom: 30px;
+}
+.address .media i{
+    font-size: 25px;
+    color: #ff2d55;
+    width: 25px;;
+}
+
+.contact-form .mr_btn_fill{
+    margin-top: 0px;
+    padding: 10px 34px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: .25rem;
+    border: 1px solid #ff2d55;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.contact-form .mr_btn_fill:hover{
+    background: #ff2d5300;
+    border: 1px solid rgba(36, 36, 36, 0.20);
+    color: #242424;
+}
+.contact-wrap .contact-form .input-field{
+    height: 50px;
+    display: block;
+}
+.contact-wrap .contact-form form{
+margin-top: 25px;
+}
+/*  */
+.totop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    z-index: 9999;
+    opacity: 0;
+}
+.totop.show {
+    opacity: 1;
+}
+.totop > a {
+    background-color: #ff2d55;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 12px 16px 10px;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.totop > a:hover {
+    background-color: #0d80f6;
+}
