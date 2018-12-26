@@ -1,12 +1,14 @@
 
 :root {
   --main-bg-color: #0c1c50;
-  --secondary-color: #F37224;
+  --secondary-dark: #235279;
+  --secodary-light: #3b905f;
 }
 
 
 .btn{
   padding: 0.700rem 1.9rem;
+  background-image: linear-gradient(to right, #235279, #3b905f) !important;
 }
 
 .offset-md-4 .col-md-5{
@@ -129,6 +131,7 @@ ul, ol {
   border-radius: 2px;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
+  background-image: linear-gradient(to right, #235279, #3b905f) !important;
 }
 
 .main-btn:hover, .main-btn:focus {
@@ -1091,6 +1094,7 @@ ul, ol {
   .cta .register-btn {
     background-color: var(--secondary-color);
     color: var(--main-bg-color);
+    background-image: linear-gradient(to right, #235279, #3b905f) !important;
   }
   .cta .register-btn:hover {
     background-color: var(--main-bg-color);
@@ -1547,7 +1551,7 @@ ul, ol {
   .register-btn {
     /*display: inline-block;
     padding: 14px 14px;*/
-    background: var(--main-bg-color) !important;
+    background: var(--main-bg-color);
     color: var(--secondary-color) !important;
     text-transform: uppercase;
     border: none;
@@ -1558,11 +1562,13 @@ ul, ol {
     margin-top: 20px;
     margin-left: 26px;
     font-weight: 800;
+    background-image: linear-gradient(to right, #235279, #3b905f) !important;
   }
   .register-btn:hover {
     color: #FFF !important;
-    background-color: var(--secondary-color) !important;
+    background-color: transparent;
     opacity: 0.8 !important;
+    background-image: linear-gradient(to right, #235279, #3b905f) !important;
   }
 
   #myModalLabel {
