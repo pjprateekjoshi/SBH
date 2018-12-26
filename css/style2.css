@@ -1,14 +1,17 @@
-home
+
 :root {
   --main-bg-color: #0c1c50;
-  --secondary-dark: #235279;
-  --secodary-light: #3b905f;
+  --secondary-color: #F37224;
 }
+ body{
 
-
+ }
+#boldy{
+  color: #3b905f;
+  font-size: 34px;
+}
 .btn{
   padding: 0.700rem 1.9rem;
-  background-image: linear-gradient(to right, #235279, #3b905f) !important;
 }
 
 .offset-md-4 .col-md-5{
@@ -66,13 +69,16 @@ home
 }
 
 html,body {
-  font-family: 'Quicksand', sans-serif;
+  
   font-size: 16px;
   color: #444;
   overflow-x:hidden;
   width:100%;
   margin: 0;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
+ 
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -131,7 +137,6 @@ ul, ol {
   border-radius: 2px;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
-  background-image: linear-gradient(to right, #235279, #3b905f) !important;
 }
 
 .main-btn:hover, .main-btn:focus {
@@ -193,10 +198,10 @@ ul, ol {
   .section-title .title {
     position: relative;
     text-transform: capitalize;
+    font-weight: 900;
     font-size: 42px;
     overflow: hidden;
-    font-family: 'Raleway', sans-serif;
-    color:var(--secondary-dark) !important;
+
   }
 
   .section-title .title>span {
@@ -440,9 +445,11 @@ ul, ol {
   }
 
   .home-content h1 {
+
+    font-family: 'Raleway', sans-serif;
     text-transform: capitalize;
     font-weight: 1100;
-    color: #FFF;
+    color: white;
     font-size: 59px;
   }
 
@@ -507,13 +514,11 @@ ul, ol {
 }
 
 .item-plan__block {
-  background-image: linear-gradient(to right, #235279, #3b905f) !important;
+  background: var(--main-bg-color);
   border-radius: 4px;
   padding: 1.6rem 1.2rem 1.4rem;
   margin-bottom: 1rem;
   text-align: center;
-  width: 200px;
-
 }
 
 .item-plan .third{
@@ -527,7 +532,7 @@ ul, ol {
   font-weight: 700;
   font-size: 1.1rem;
   line-height: 1.333;
-  color: #FFF;
+  color: #F37224;
   margin: 0 0 1.6rem 0;
 }
 
@@ -544,7 +549,7 @@ ul, ol {
   font-size: 2.5rem;
   line-height: 1.081;
   font-weight: 600;
-  color: #FFF;
+  color: #F37224;
 }
 
 
@@ -590,7 +595,7 @@ ul, ol {
 
 .item-plan--popular .item-plan__title,
 .item-plan--popular .item-plan__price {
-  color: #FFF;
+  color: #F37224;
 }
 
 .item-plan--popular .item-plan__per {
@@ -1098,7 +1103,6 @@ ul, ol {
   .cta .register-btn {
     background-color: var(--secondary-color);
     color: var(--main-bg-color);
-    background-image: linear-gradient(to right, #235279, #3b905f) !important;
   }
   .cta .register-btn:hover {
     background-color: var(--main-bg-color);
@@ -1555,7 +1559,7 @@ ul, ol {
   .register-btn {
     /*display: inline-block;
     padding: 14px 14px;*/
-    background: var(--main-bg-color);
+    background: var(--main-bg-color) !important;
     color: var(--secondary-color) !important;
     text-transform: uppercase;
     border: none;
@@ -1566,13 +1570,11 @@ ul, ol {
     margin-top: 20px;
     margin-left: 26px;
     font-weight: 800;
-    background-image: linear-gradient(to right, #235279, #3b905f) !important;
   }
   .register-btn:hover {
     color: #FFF !important;
-    background-color: transparent;
+    background-color: var(--secondary-color) !important;
     opacity: 0.8 !important;
-    background-image: linear-gradient(to right, #235279, #3b905f) !important;
   }
 
   #myModalLabel {
@@ -1672,9 +1674,9 @@ ul, ol {
   }
 
   .section-title-divider{
-    width: 55px;
-    height: 5px;
-    background: linear-gradient(to right,#235279, #3b905f);
+    width: 50px;
+    height: 3px;
+    background: #df4638;
     margin: 0 auto 20px;
   }
 
@@ -1689,7 +1691,7 @@ ul, ol {
 
   #faqs .faq-icon {
     float: left;
-    background: #235279;
+    background: var(--main-bg-color);
     padding: 16px;
     border-radius: 50%;
     transition: .5s;
@@ -2567,7 +2569,7 @@ img {
 #mytab .active {
   border-radius: 0;
   background-color: white !important ;
-  color: #3b905f !important;
+  color: #F37224 !important;
     
        
 }
@@ -2581,7 +2583,8 @@ img {
 
 
 .sc-a{
-   background-color: #235279 !important;
+   background-color:#0c1c50 !important;
+    color: #F37224 !important;
        border-style:  solid;
     border-color: red;
     
