@@ -8,6 +8,7 @@ home
 
 .btn{
   padding: 0.700rem 1.9rem;
+  background-image: linear-gradient(to right, #235279, #3b905f) !important;
 }
 
 .offset-md-4 .col-md-5{
@@ -1096,6 +1097,7 @@ ul, ol {
   .cta .register-btn {
     color: #FFF;
     border: solid 2px rgba(0,0,0,0) !important;
+    background-image: linear-gradient(to right, #235279, #3b905f) !important;
   }
   .cta .register-btn:hover {
   }
@@ -1551,16 +1553,17 @@ ul, ol {
   .register-btn {
     /*display: inline-block;
     padding: 14px 14px;*/
-    background-color: var(--secondary-light);
-    color: #FFF;
+    background: var(--main-bg-color);
+    color: var(--secondary-color) !important;
     text-transform: uppercase;
-    border: solid 2px rgba(0,0,0,0) !important;
+    border: solid none;
     border-color: transparent;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
     margin-top: 20px;
     margin-left: 26px;
     font-weight: 800;
+    background-image: linear-gradient(to right, #235279, #3b905f) !important;
   }
   .register-btn:hover {
     transition: 0.3s all;
