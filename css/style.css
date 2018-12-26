@@ -2,13 +2,12 @@ home
 :root {
   --main-bg-color: #0c1c50;
   --secondary-dark: #235279;
-  --secodary-light: #3b905f;
+  --secondary-light: #3b905f;
 }
 
 
 .btn{
   padding: 0.700rem 1.9rem;
-  background-image: linear-gradient(to right, #235279, #3b905f) !important;
 }
 
 .offset-md-4 .col-md-5{
@@ -136,8 +135,7 @@ ul, ol {
 
 .main-btn:hover, .main-btn:focus {
   color: #FFF;
-  opacity: 0.8;
-  var(--secondary-color)  }
+  opacity: 0.8;  }
 
   .input {
     height: 40px;
@@ -1092,16 +1090,14 @@ ul, ol {
   ===========================================================*/
 
   .cta {
-    background-color: #0d1c507a
+    background-color: #0d1c507a;
   }
 
   .cta .register-btn {
-    background-color: var(--secondary-color);
-    color: var(--main-bg-color);
-    background-image: linear-gradient(to right, #235279, #3b905f) !important;
+    color: #FFF;
+    border: solid 2px rgba(0,0,0,0) !important;
   }
   .cta .register-btn:hover {
-    background-color: var(--main-bg-color);
   }
 
   .cta-content h2 {
@@ -1555,24 +1551,29 @@ ul, ol {
   .register-btn {
     /*display: inline-block;
     padding: 14px 14px;*/
-    background: var(--main-bg-color);
-    color: var(--secondary-color) !important;
+    background-color: var(--secondary-light);
+    color: #FFF;
     text-transform: uppercase;
-    border: none;
-    border-color: var(--secondary-color) !important;
-    /*border-radius: 2px;*/
+    border: solid 2px rgba(0,0,0,0) !important;
+    border-color: transparent;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
     margin-top: 20px;
     margin-left: 26px;
     font-weight: 800;
-    background-image: linear-gradient(to right, #235279, #3b905f) !important;
   }
   .register-btn:hover {
-    color: #FFF !important;
+    transition: 0.3s all;
+    color: #FFF;
     background-color: transparent;
-    opacity: 0.8 !important;
-    background-image: linear-gradient(to right, #235279, #3b905f) !important;
+    border: 2px solid var(--secondary-light) !important; 
+  }
+
+  .register-btn-alt {
+    color: #FFF !important;
+  }
+  .register-btn-alt:hover{
+    color: var(--secondary-dark) !important;
   }
 
   #myModalLabel {
