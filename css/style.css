@@ -391,7 +391,6 @@ ul, ol {
     right: 0;
     top: 0;
     background-color: transparent;
-    border-bottom: 1px solid #DADADA30;
   }
 
   #header.fixed-navbar {
