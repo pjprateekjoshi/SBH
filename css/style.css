@@ -380,7 +380,6 @@ ul, ol {
   #header {
     position: relative;
     background-color: #FFF;
-    border-bottom: 1px solid #0000001a;
     z-index: 80;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
@@ -1210,6 +1209,9 @@ ul, ol {
     background-image: linear-gradient(to right, #235279, #3b905f) !important;
   }
   .cta .register-btn:hover {
+    transition: 0.3s all;
+    color: #FFF;
+    background-color: transparent;
   }
 
   .cta-content h2 {
@@ -1664,9 +1666,9 @@ ul, ol {
     /*display: inline-block;
     padding: 14px 14px;*/
     background: var(--main-bg-color);
-    color: var(--secondary-color) !important;
+    color: #FFF !important;
     text-transform: uppercase;
-    border: solid none;
+    border:  3px solid transparent;
     border-color: transparent;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
@@ -1679,7 +1681,6 @@ ul, ol {
     transition: 0.3s all;
     color: #FFF;
     background-color: transparent;
-    border: 2px solid var(--secondary-light) !important; 
   }
 
   .register-btn-alt {
